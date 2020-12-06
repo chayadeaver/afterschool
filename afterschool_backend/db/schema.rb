@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_12_05_023852) do
+ActiveRecord::Schema.define(version: 2020_12_06_051854) do
 
   create_table "children", force: :cascade do |t|
     t.string "name"
@@ -21,7 +21,7 @@ ActiveRecord::Schema.define(version: 2020_12_05_023852) do
   end
 
   create_table "schedules", force: :cascade do |t|
-    t.string "day"
+    t.string "weekday"
     t.string "subject"
     t.string "content"
     t.integer "child_id"
