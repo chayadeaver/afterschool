@@ -5,7 +5,7 @@ class ChildrenController < ApplicationController
   def index
     @children = Child.all
 
-    render json: @children
+    render json: @children, except: [:created_at, :updated_at]
   end
 
   # GET /children/1
