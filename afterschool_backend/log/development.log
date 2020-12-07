@@ -1100,3 +1100,965 @@ Processing by SchedulesController#index as HTML
 Completed 200 OK in 5ms (Views: 2.0ms | ActiveRecord: 0.7ms | Allocations: 1876)
 
 
+Started GET "/schedules" for 127.0.0.1 at 2020-12-06 01:02:34 -0500
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SchedulesController#index as HTML
+  [1m[36mSchedule Load (0.6ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 12ms (Views: 4.2ms | ActiveRecord: 0.8ms | Allocations: 2203)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-06 01:03:17 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by SchedulesController#index as HTML
+  [1m[36mSchedule Load (0.8ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 6ms (Views: 2.1ms | ActiveRecord: 1.1ms | Allocations: 1908)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-06 01:03:18 -0500
+Processing by SchedulesController#index as HTML
+  [1m[36mSchedule Load (0.1ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.1ms | Allocations: 820)
+
+
+Started GET "/children" for 127.0.0.1 at 2020-12-06 01:03:25 -0500
+Processing by ChildrenController#index as HTML
+  [1m[36mChild Load (0.3ms)[0m  [1m[34mSELECT "children".* FROM "children"[0m
+  ↳ app/controllers/children_controller.rb:8:in `index'
+Completed 200 OK in 10ms (Views: 6.3ms | ActiveRecord: 0.8ms | Allocations: 6158)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-06 01:03:50 -0500
+Processing by SchedulesController#index as HTML
+  [1m[36mSchedule Load (0.1ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.1ms | Allocations: 798)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-06 01:05:07 -0500
+  
+SyntaxError (/Users/anikamc/Desktop/afterschool/afterschool_backend/config/routes.rb:6: syntax error, unexpected end, expecting end-of-input):
+  
+config/routes.rb:6: syntax error, unexpected end, expecting end-of-input
+config/routes.rb:6: syntax error, unexpected end, expecting end-of-input
+Started GET "/schedules" for 127.0.0.1 at 2020-12-06 01:05:52 -0500
+  
+SyntaxError (/Users/anikamc/Desktop/afterschool/afterschool_backend/config/routes.rb:6: syntax error, unexpected end, expecting end-of-input):
+  
+config/routes.rb:6: syntax error, unexpected end, expecting end-of-input
+config/routes.rb:6: syntax error, unexpected end, expecting end-of-input
+Started GET "/schedules" for 127.0.0.1 at 2020-12-06 01:05:53 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (No route matches [GET] "/schedules"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/children" for 127.0.0.1 at 2020-12-06 01:06:20 -0500
+  
+SyntaxError (/Users/anikamc/Desktop/afterschool/afterschool_backend/config/routes.rb:5: syntax error, unexpected end, expecting end-of-input):
+  
+config/routes.rb:5: syntax error, unexpected end, expecting end-of-input
+config/routes.rb:5: syntax error, unexpected end, expecting end-of-input
+Started GET "/children" for 127.0.0.1 at 2020-12-06 01:06:34 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ChildrenController#index as HTML
+  [1m[36mChild Load (0.7ms)[0m  [1m[34mSELECT "children".* FROM "children"[0m
+  ↳ app/controllers/children_controller.rb:8:in `index'
+Completed 200 OK in 11ms (Views: 7.3ms | ActiveRecord: 1.2ms | Allocations: 6008)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-06 01:06:39 -0500
+Processing by SchedulesController#index as HTML
+  [1m[36mSchedule Load (0.5ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 1.4ms | ActiveRecord: 0.9ms | Allocations: 1586)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-06 01:07:08 -0500
+Processing by SchedulesController#index as HTML
+  [1m[36mSchedule Load (0.1ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.1ms | Allocations: 813)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-06 01:07:08 -0500
+Processing by SchedulesController#index as HTML
+  [1m[36mSchedule Load (0.1ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.1ms | Allocations: 798)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-06 01:07:09 -0500
+Processing by SchedulesController#index as HTML
+  [1m[36mSchedule Load (0.1ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.1ms | Allocations: 798)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-06 01:08:02 -0500
+Processing by SchedulesController#index as HTML
+  [1m[36mSchedule Load (0.1ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.1ms | Allocations: 798)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-06 01:08:03 -0500
+Processing by SchedulesController#index as HTML
+  [1m[36mSchedule Load (0.1ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.1ms | Allocations: 798)
+
+
+Started GET "/children" for 127.0.0.1 at 2020-12-06 01:08:13 -0500
+Processing by ChildrenController#index as HTML
+  [1m[36mChild Load (0.2ms)[0m  [1m[34mSELECT "children".* FROM "children"[0m
+  ↳ app/controllers/children_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.2ms | Allocations: 911)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-06 01:08:25 -0500
+Processing by SchedulesController#index as HTML
+  [1m[36mSchedule Load (0.1ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.1ms | Allocations: 815)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-06 01:08:44 -0500
+Processing by SchedulesController#index as HTML
+  [1m[36mSchedule Load (0.1ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.1ms | Allocations: 803)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-06 01:08:45 -0500
+Processing by SchedulesController#index as HTML
+  [1m[36mSchedule Load (0.1ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.1ms | Allocations: 798)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-06 01:16:33 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by SchedulesController#index as HTML
+  [1m[36mSchedule Load (0.5ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.5ms | Allocations: 820)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-06 01:16:34 -0500
+Processing by SchedulesController#index as HTML
+  [1m[36mSchedule Load (0.1ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.1ms | Allocations: 798)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-06 01:30:36 -0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by SchedulesController#index as HTML
+  [1m[36mSchedule Load (0.6ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 3.3ms | ActiveRecord: 0.6ms | Allocations: 823)
+
+
+Started GET "/children" for 127.0.0.1 at 2020-12-06 01:30:41 -0500
+Processing by ChildrenController#index as HTML
+  [1m[36mChild Load (0.5ms)[0m  [1m[34mSELECT "children".* FROM "children"[0m
+  ↳ app/controllers/children_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.5ms | Allocations: 928)
+
+
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/schedules" for 127.0.0.1 at 2020-12-06 01:31:12 -0500
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SchedulesController#index as HTML
+  [1m[36mSchedule Load (0.7ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 9ms (Views: 1.9ms | ActiveRecord: 1.0ms | Allocations: 2202)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-06 01:31:13 -0500
+Processing by SchedulesController#index as HTML
+  [1m[36mSchedule Load (0.1ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.1ms | Allocations: 815)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-06 01:32:54 -0500
+Processing by SchedulesController#index as HTML
+  [1m[36mSchedule Load (0.2ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 24ms (Views: 23.0ms | ActiveRecord: 0.2ms | Allocations: 820)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-06 01:32:58 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/anikamc/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/anikamc/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 8.1ms | Allocations: 315)
+Completed 200 OK in 14ms (Views: 11.7ms | ActiveRecord: 0.0ms | Allocations: 1588)
+
+
+Started GET "/children" for 127.0.0.1 at 2020-12-06 01:33:05 -0500
+Processing by ChildrenController#index as HTML
+  [1m[36mChild Load (0.6ms)[0m  [1m[34mSELECT "children".* FROM "children"[0m
+  ↳ app/controllers/children_controller.rb:8:in `index'
+Completed 200 OK in 15ms (Views: 7.9ms | ActiveRecord: 1.2ms | Allocations: 6162)
+
+
+Started GET "/children" for 127.0.0.1 at 2020-12-06 01:34:45 -0500
+Processing by ChildrenController#index as HTML
+  [1m[36mChild Load (0.2ms)[0m  [1m[34mSELECT "children".* FROM "children"[0m
+  ↳ app/controllers/children_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.2ms | Allocations: 911)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-06 01:34:51 -0500
+Processing by SchedulesController#index as HTML
+  [1m[36mSchedule Load (0.1ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.1ms | Allocations: 798)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-06 01:34:53 -0500
+Processing by SchedulesController#index as HTML
+  [1m[36mSchedule Load (0.1ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.1ms | Allocations: 798)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-06 18:08:53 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by SchedulesController#index as HTML
+  [1m[36mSchedule Load (3.1ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 8ms (Views: 3.6ms | ActiveRecord: 3.1ms | Allocations: 820)
+
+
+Started GET "/children" for 127.0.0.1 at 2020-12-06 18:08:55 -0500
+Processing by ChildrenController#index as HTML
+  [1m[36mChild Load (2.8ms)[0m  [1m[34mSELECT "children".* FROM "children"[0m
+  ↳ app/controllers/children_controller.rb:8:in `index'
+Completed 200 OK in 7ms (Views: 3.0ms | ActiveRecord: 2.8ms | Allocations: 928)
+
+
+Started GET "/children" for 127.0.0.1 at 2020-12-06 18:09:35 -0500
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ChildrenController#index as HTML
+  [1m[36mChild Load (1.4ms)[0m  [1m[34mSELECT "children".* FROM "children"[0m
+  ↳ app/controllers/children_controller.rb:8:in `index'
+Completed 200 OK in 24ms (Views: 14.6ms | ActiveRecord: 1.9ms | Allocations: 6486)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-06 18:09:48 -0500
+Processing by SchedulesController#index as HTML
+  [1m[36mSchedule Load (0.6ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 7ms (Views: 2.1ms | ActiveRecord: 0.9ms | Allocations: 1894)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-06 18:11:12 -0500
+Processing by SchedulesController#index as HTML
+  [1m[36mSchedule Load (0.1ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.1ms | Allocations: 815)
+
+
+Started GET "/children" for 127.0.0.1 at 2020-12-06 18:11:18 -0500
+Processing by ChildrenController#index as HTML
+  [1m[36mChild Load (0.1ms)[0m  [1m[34mSELECT "children".* FROM "children"[0m
+  ↳ app/controllers/children_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.1ms | Allocations: 911)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-06 18:33:29 -0500
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by SchedulesController#index as HTML
+  [1m[36mSchedule Load (0.6ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 8ms (Views: 5.9ms | ActiveRecord: 0.6ms | Allocations: 834)
+
+
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mSchedule Load (0.7ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mChild Load (0.5ms)[0m  [1m[34mSELECT "children".* FROM "children" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Create (2.0ms)[0m  [1m[32mINSERT INTO "children" ("name", "age", "grade", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Malik"], ["age", 9], ["grade", "fourth"], ["created_at", "2020-12-06 23:34:44.243335"], ["updated_at", "2020-12-06 23:34:44.243335"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mSchedule Load (1.3ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Create (0.4ms)[0m  [1m[32mINSERT INTO "children" ("name", "age", "grade", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Malik"], ["age", 9], ["grade", "fourth"], ["created_at", "2020-12-06 23:36:31.095986"], ["updated_at", "2020-12-06 23:36:31.095986"]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/schedules" for 127.0.0.1 at 2020-12-06 18:36:46 -0500
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SchedulesController#index as HTML
+  [1m[36mSchedule Load (0.3ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 10ms (Views: 3.7ms | ActiveRecord: 0.6ms | Allocations: 2203)
+
+
+Started GET "/children" for 127.0.0.1 at 2020-12-06 18:36:57 -0500
+Processing by ChildrenController#index as HTML
+  [1m[36mChild Load (0.2ms)[0m  [1m[34mSELECT "children".* FROM "children"[0m
+  ↳ app/controllers/children_controller.rb:8:in `index'
+Completed 200 OK in 40ms (Views: 32.3ms | ActiveRecord: 0.9ms | Allocations: 6403)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-06 18:37:10 -0500
+Processing by SchedulesController#index as HTML
+  [1m[36mSchedule Load (0.1ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.1ms | Allocations: 815)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-06 18:40:47 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by SchedulesController#index as HTML
+  [1m[36mSchedule Load (0.4ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 7ms (Views: 2.5ms | ActiveRecord: 0.6ms | Allocations: 1964)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-06 18:40:48 -0500
+Processing by SchedulesController#index as HTML
+  [1m[36mSchedule Load (0.1ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.1ms | Allocations: 798)
+
+
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Create (0.4ms)[0m  [1m[32mINSERT INTO "children" ("name", "age", "grade", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Malik"], ["age", 9], ["grade", "fourth"], ["created_at", "2020-12-06 23:41:20.272565"], ["updated_at", "2020-12-06 23:41:20.272565"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/schedules" for 127.0.0.1 at 2020-12-06 18:41:25 -0500
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SchedulesController#index as HTML
+  [1m[36mSchedule Load (0.2ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 10ms (Views: 4.0ms | ActiveRecord: 0.5ms | Allocations: 2206)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-06 18:41:26 -0500
+Processing by SchedulesController#index as HTML
+  [1m[36mSchedule Load (0.2ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.2ms | Allocations: 815)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-06 18:41:34 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/anikamc/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/anikamc/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 9.9ms | Allocations: 315)
+Completed 200 OK in 20ms (Views: 15.2ms | ActiveRecord: 0.0ms | Allocations: 1590)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-06 18:41:37 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/anikamc/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/anikamc/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 7.9ms | Allocations: 191)
+Completed 200 OK in 14ms (Views: 9.0ms | ActiveRecord: 0.0ms | Allocations: 789)
+
+
+Started GET "/children" for 127.0.0.1 at 2020-12-06 18:41:42 -0500
+Processing by ChildrenController#index as HTML
+  [1m[36mChild Load (0.2ms)[0m  [1m[34mSELECT "children".* FROM "children"[0m
+  ↳ app/controllers/children_controller.rb:8:in `index'
+Completed 200 OK in 19ms (Views: 12.7ms | ActiveRecord: 0.8ms | Allocations: 6517)
+
+
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "children"[0m
+  [1m[35m (1.8ms)[0m  [1m[35mCREATE TABLE "children" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "age" integer, "grade" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "schedules"[0m
+  [1m[35m (1.0ms)[0m  [1m[35mCREATE TABLE "schedules" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "weekday" varchar, "subject" varchar, "content" varchar, "child_id" integer, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.9ms)[0m  [1m[35mCREATE  INDEX "index_schedules_on_child_id" ON "schedules" ("child_id")[0m
+  [1m[35m (2.0ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (1.0ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20201206051854)[0m
+  [1m[35m (1.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES
+(20201206051750);
+
+[0m
+  [1m[35m (1.2ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-12-06 23:42:15.468022"], ["updated_at", "2020-12-06 23:42:15.468022"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "schema_sha1"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "schema_sha1"], ["value", "64324144b55af849d9e1316c329560f43942f14e"], ["created_at", "2020-12-06 23:42:15.475963"], ["updated_at", "2020-12-06 23:42:15.475963"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "children"[0m
+  [1m[35m (1.0ms)[0m  [1m[35mCREATE TABLE "children" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "age" integer, "grade" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "schedules"[0m
+  [1m[35m (1.0ms)[0m  [1m[35mCREATE TABLE "schedules" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "weekday" varchar, "subject" varchar, "content" varchar, "child_id" integer, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.9ms)[0m  [1m[35mCREATE  INDEX "index_schedules_on_child_id" ON "schedules" ("child_id")[0m
+  [1m[35m (1.0ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (1.0ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20201206051854)[0m
+  [1m[35m (0.7ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES
+(20201206051750);
+
+[0m
+  [1m[35m (0.9ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.2ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-12-06 23:42:15.516012"], ["updated_at", "2020-12-06 23:42:15.516012"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Update (0.3ms)[0m  [1m[33mUPDATE "ar_internal_metadata" SET "value" = ?, "updated_at" = ? WHERE "ar_internal_metadata"."key" = ?[0m  [["value", "test"], ["updated_at", "2020-12-06 23:42:15.520529"], ["key", "environment"]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "schema_sha1"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.2ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "schema_sha1"], ["value", "64324144b55af849d9e1316c329560f43942f14e"], ["created_at", "2020-12-06 23:42:15.525860"], ["updated_at", "2020-12-06 23:42:15.525860"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Create (0.3ms)[0m  [1m[32mINSERT INTO "children" ("name", "age", "grade", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Malik"], ["age", 9], ["grade", "fourth"], ["created_at", "2020-12-06 23:42:15.542955"], ["updated_at", "2020-12-06 23:42:15.542955"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-12-06 18:42:30 -0500
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/anikamc/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/anikamc/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 8.0ms | Allocations: 315)
+Completed 200 OK in 15ms (Views: 11.2ms | ActiveRecord: 0.0ms | Allocations: 1594)
+
+
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Create (0.3ms)[0m  [1m[32mINSERT INTO "children" ("name", "age", "grade", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Malik"], ["age", 9], ["grade", "fourth"], ["created_at", "2020-12-06 23:42:39.384509"], ["updated_at", "2020-12-06 23:42:39.384509"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-12-06 18:42:46 -0500
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/anikamc/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/anikamc/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 8.4ms | Allocations: 315)
+Completed 200 OK in 15ms (Views: 12.7ms | ActiveRecord: 0.0ms | Allocations: 1594)
+
+
+Started GET "/children" for 127.0.0.1 at 2020-12-06 18:42:50 -0500
+Processing by ChildrenController#index as HTML
+  [1m[36mChild Load (0.3ms)[0m  [1m[34mSELECT "children".* FROM "children"[0m
+  ↳ app/controllers/children_controller.rb:8:in `index'
+Completed 200 OK in 33ms (Views: 23.7ms | ActiveRecord: 1.5ms | Allocations: 6608)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-06 18:42:56 -0500
+Processing by SchedulesController#index as HTML
+  [1m[36mSchedule Load (0.2ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 22ms (Views: 2.2ms | ActiveRecord: 0.5ms | Allocations: 1901)
+
+
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Create (0.6ms)[0m  [1m[32mINSERT INTO "children" ("name", "age", "grade", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Malik"], ["age", 9], ["grade", "fourth"], ["created_at", "2020-12-06 23:43:33.245826"], ["updated_at", "2020-12-06 23:43:33.245826"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Load (0.1ms)[0m  [1m[34mSELECT "children".* FROM "children" WHERE "children"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSchedule Create (0.2ms)[0m  [1m[32mINSERT INTO "schedules" ("weekday", "subject", "content", "child_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["weekday", "Monday"], ["subject", "Math"], ["content", "Completed chapter 1 of Go Math"], ["child_id", 1], ["created_at", "2020-12-06 23:43:33.269491"], ["updated_at", "2020-12-06 23:43:33.269491"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/children" for 127.0.0.1 at 2020-12-06 18:43:54 -0500
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ChildrenController#index as HTML
+  [1m[36mChild Load (0.2ms)[0m  [1m[34mSELECT "children".* FROM "children"[0m
+  ↳ app/controllers/children_controller.rb:8:in `index'
+Completed 200 OK in 23ms (Views: 14.8ms | ActiveRecord: 0.8ms | Allocations: 6713)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-06 18:44:01 -0500
+Processing by SchedulesController#index as HTML
+  [1m[36mSchedule Load (1.2ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 27ms (Views: 19.6ms | ActiveRecord: 1.7ms | Allocations: 6377)
+
+
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "children"[0m
+  [1m[35m (6.0ms)[0m  [1m[35mCREATE TABLE "children" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "age" integer, "grade" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "schedules"[0m
+  [1m[35m (0.9ms)[0m  [1m[35mCREATE TABLE "schedules" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "weekday" varchar, "subject" varchar, "content" varchar, "child_id" integer, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (1.0ms)[0m  [1m[35mCREATE  INDEX "index_schedules_on_child_id" ON "schedules" ("child_id")[0m
+  [1m[35m (0.9ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (11.8ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20201206051854)[0m
+  [1m[35m (0.7ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES
+(20201206051750);
+
+[0m
+  [1m[35m (1.2ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-12-06 23:44:47.359875"], ["updated_at", "2020-12-06 23:44:47.359875"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "schema_sha1"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "schema_sha1"], ["value", "64324144b55af849d9e1316c329560f43942f14e"], ["created_at", "2020-12-06 23:44:47.372368"], ["updated_at", "2020-12-06 23:44:47.372368"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "children"[0m
+  [1m[35m (1.1ms)[0m  [1m[35mCREATE TABLE "children" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "age" integer, "grade" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.2ms)[0m  [1m[35mDROP TABLE IF EXISTS "schedules"[0m
+  [1m[35m (1.2ms)[0m  [1m[35mCREATE TABLE "schedules" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "weekday" varchar, "subject" varchar, "content" varchar, "child_id" integer, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (1.4ms)[0m  [1m[35mCREATE  INDEX "index_schedules_on_child_id" ON "schedules" ("child_id")[0m
+  [1m[35m (1.8ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.8ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20201206051854)[0m
+  [1m[35m (0.9ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES
+(20201206051750);
+
+[0m
+  [1m[35m (1.7ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-12-06 23:44:47.416855"], ["updated_at", "2020-12-06 23:44:47.416855"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Update (0.4ms)[0m  [1m[33mUPDATE "ar_internal_metadata" SET "value" = ?, "updated_at" = ? WHERE "ar_internal_metadata"."key" = ?[0m  [["value", "test"], ["updated_at", "2020-12-06 23:44:47.424597"], ["key", "environment"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "schema_sha1"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "schema_sha1"], ["value", "64324144b55af849d9e1316c329560f43942f14e"], ["created_at", "2020-12-06 23:44:47.430093"], ["updated_at", "2020-12-06 23:44:47.430093"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Create (0.3ms)[0m  [1m[32mINSERT INTO "children" ("name", "age", "grade", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Malik"], ["age", 9], ["grade", "fourth"], ["created_at", "2020-12-06 23:44:47.451984"], ["updated_at", "2020-12-06 23:44:47.451984"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Load (0.1ms)[0m  [1m[34mSELECT "children".* FROM "children" WHERE "children"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSchedule Create (0.3ms)[0m  [1m[32mINSERT INTO "schedules" ("weekday", "subject", "content", "child_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["weekday", "Monday"], ["subject", "Math"], ["content", "Completed chapter 1 of Go Math"], ["child_id", 1], ["created_at", "2020-12-06 23:44:47.472614"], ["updated_at", "2020-12-06 23:44:47.472614"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Create (0.4ms)[0m  [1m[32mINSERT INTO "children" ("name", "age", "grade", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Malik"], ["age", 9], ["grade", "fourth"], ["created_at", "2020-12-06 23:44:54.837894"], ["updated_at", "2020-12-06 23:44:54.837894"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Load (0.1ms)[0m  [1m[34mSELECT "children".* FROM "children" WHERE "children"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSchedule Create (0.2ms)[0m  [1m[32mINSERT INTO "schedules" ("weekday", "subject", "content", "child_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["weekday", "Monday"], ["subject", "Math"], ["content", "Completed chapter 1 of Go Math"], ["child_id", 1], ["created_at", "2020-12-06 23:44:54.852700"], ["updated_at", "2020-12-06 23:44:54.852700"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/children" for 127.0.0.1 at 2020-12-06 18:45:20 -0500
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ChildrenController#index as HTML
+  [1m[36mChild Load (0.2ms)[0m  [1m[34mSELECT "children".* FROM "children"[0m
+  ↳ app/controllers/children_controller.rb:8:in `index'
+Completed 200 OK in 24ms (Views: 16.2ms | ActiveRecord: 0.9ms | Allocations: 6600)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-06 18:45:28 -0500
+Processing by SchedulesController#index as HTML
+  [1m[36mSchedule Load (0.2ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 28ms (Views: 20.7ms | ActiveRecord: 0.8ms | Allocations: 6507)
+
+
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.9ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (1.4ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateSchedules (20201206051750)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[35mCREATE TABLE "schedules" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "weekday" varchar, "subject" varchar, "content" varchar, "child_id" integer, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "index_schedules_on_child_id" ON "schedules" ("child_id")[0m
+  [1m[36mprimary::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20201206051750"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateChildren (20201206051854)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE "children" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "age" integer, "grade" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20201206051854"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.5ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-12-06 23:46:23.270868"], ["updated_at", "2020-12-06 23:46:23.270868"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/children" for 127.0.0.1 at 2020-12-06 18:47:11 -0500
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ChildrenController#index as HTML
+  [1m[36mChild Load (0.5ms)[0m  [1m[34mSELECT "children".* FROM "children"[0m
+  ↳ app/controllers/children_controller.rb:8:in `index'
+Completed 200 OK in 11ms (Views: 3.6ms | ActiveRecord: 0.8ms | Allocations: 2419)
+
+
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Create (0.3ms)[0m  [1m[32mINSERT INTO "children" ("name", "age", "grade", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Malik"], ["age", 9], ["grade", "fourth"], ["created_at", "2020-12-06 23:47:26.197454"], ["updated_at", "2020-12-06 23:47:26.197454"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Load (0.1ms)[0m  [1m[34mSELECT "children".* FROM "children" WHERE "children"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSchedule Create (0.3ms)[0m  [1m[32mINSERT INTO "schedules" ("weekday", "subject", "content", "child_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["weekday", "Monday"], ["subject", "Math"], ["content", "Completed chapter 1 of Go Math"], ["child_id", 1], ["created_at", "2020-12-06 23:47:26.217379"], ["updated_at", "2020-12-06 23:47:26.217379"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/children" for 127.0.0.1 at 2020-12-06 18:47:44 -0500
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ChildrenController#index as HTML
+  [1m[36mChild Load (0.3ms)[0m  [1m[34mSELECT "children".* FROM "children"[0m
+  ↳ app/controllers/children_controller.rb:8:in `index'
+Completed 200 OK in 29ms (Views: 20.3ms | ActiveRecord: 0.9ms | Allocations: 6486)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-06 18:47:50 -0500
+Processing by SchedulesController#index as HTML
+  [1m[36mSchedule Load (0.2ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 22ms (Views: 15.0ms | ActiveRecord: 1.1ms | Allocations: 6377)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-06 19:03:40 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by SchedulesController#index as HTML
+  [1m[36mSchedule Load (0.2ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.2ms | Allocations: 962)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-06 19:03:41 -0500
+Processing by SchedulesController#index as HTML
+  [1m[36mSchedule Load (0.1ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.1ms | Allocations: 928)
+
+
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Create (0.4ms)[0m  [1m[32mINSERT INTO "children" ("name", "age", "grade", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Malik"], ["age", 9], ["grade", "fourth"], ["created_at", "2020-12-07 00:09:19.923927"], ["updated_at", "2020-12-07 00:09:19.923927"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Load (0.2ms)[0m  [1m[34mSELECT "children".* FROM "children" WHERE "children"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSchedule Create (0.4ms)[0m  [1m[32mINSERT INTO "schedules" ("weekday", "subject", "content", "child_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["weekday", "Monday"], ["subject", "Math"], ["content", "Completed chapter 1 of Go Math"], ["child_id", 1], ["created_at", "2020-12-07 00:09:19.954832"], ["updated_at", "2020-12-07 00:09:19.954832"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Load (0.1ms)[0m  [1m[34mSELECT "children".* FROM "children" WHERE "children"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSchedule Create (0.3ms)[0m  [1m[32mINSERT INTO "schedules" ("weekday", "subject", "content", "child_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["weekday", "Tuesday"], ["subject", "Reading"], ["content", "Completed chapter 1 of Lost"], ["child_id", 1], ["created_at", "2020-12-07 00:09:19.960370"], ["updated_at", "2020-12-07 00:09:19.960370"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Load (0.1ms)[0m  [1m[34mSELECT "children".* FROM "children" WHERE "children"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSchedule Create (0.4ms)[0m  [1m[32mINSERT INTO "schedules" ("weekday", "subject", "content", "child_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["weekday", "Wednesday"], ["subject", "Creative Writing"], ["content", "Wrote a story about my Favorite things to eat"], ["child_id", 1], ["created_at", "2020-12-07 00:09:19.967169"], ["updated_at", "2020-12-07 00:09:19.967169"]]
+  [1m[35m (3.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Load (0.1ms)[0m  [1m[34mSELECT "children".* FROM "children" WHERE "children"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSchedule Create (0.4ms)[0m  [1m[32mINSERT INTO "schedules" ("weekday", "subject", "content", "child_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["weekday", "Thursday"], ["subject", "Physical Education"], ["content", "Did 15 Jumping Jacks and 15 Sit Ups"], ["child_id", 1], ["created_at", "2020-12-07 00:09:19.976601"], ["updated_at", "2020-12-07 00:09:19.976601"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Load (0.1ms)[0m  [1m[34mSELECT "children".* FROM "children" WHERE "children"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSchedule Create (0.3ms)[0m  [1m[32mINSERT INTO "schedules" ("weekday", "subject", "content", "child_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["weekday", "Friday"], ["subject", "Music"], ["content", "Listened to Beethoven on You Tube"], ["child_id", 1], ["created_at", "2020-12-07 00:09:19.983288"], ["updated_at", "2020-12-07 00:09:19.983288"]]
+  [1m[35m (2.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Load (0.2ms)[0m  [1m[34mSELECT "children".* FROM "children" WHERE "children"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSchedule Create (0.3ms)[0m  [1m[32mINSERT INTO "schedules" ("weekday", "subject", "content", "child_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["weekday", "Monday"], ["subject", "Math"], ["content", "Completed chapter 2 of Go Math"], ["child_id", 1], ["created_at", "2020-12-07 00:09:20.003778"], ["updated_at", "2020-12-07 00:09:20.003778"]]
+  [1m[35m (2.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Load (0.1ms)[0m  [1m[34mSELECT "children".* FROM "children" WHERE "children"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSchedule Create (0.3ms)[0m  [1m[32mINSERT INTO "schedules" ("weekday", "subject", "content", "child_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["weekday", "Tuesday"], ["subject", "Reading"], ["content", "Completed chapter 2 of Lost"], ["child_id", 1], ["created_at", "2020-12-07 00:09:20.010815"], ["updated_at", "2020-12-07 00:09:20.010815"]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Load (0.1ms)[0m  [1m[34mSELECT "children".* FROM "children" WHERE "children"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSchedule Create (0.4ms)[0m  [1m[32mINSERT INTO "schedules" ("weekday", "subject", "content", "child_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["weekday", "Wednesday"], ["subject", "Creative Writing"], ["content", "Wrote a story about my family"], ["child_id", 1], ["created_at", "2020-12-07 00:09:20.021026"], ["updated_at", "2020-12-07 00:09:20.021026"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Load (0.1ms)[0m  [1m[34mSELECT "children".* FROM "children" WHERE "children"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSchedule Create (0.4ms)[0m  [1m[32mINSERT INTO "schedules" ("weekday", "subject", "content", "child_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["weekday", "Thursday"], ["subject", "Physical Education"], ["content", "Did 15 Sqauts and jogged on the spot for 5 minutes"], ["child_id", 1], ["created_at", "2020-12-07 00:09:20.027490"], ["updated_at", "2020-12-07 00:09:20.027490"]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Load (0.1ms)[0m  [1m[34mSELECT "children".* FROM "children" WHERE "children"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSchedule Create (0.3ms)[0m  [1m[32mINSERT INTO "schedules" ("weekday", "subject", "content", "child_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["weekday", "Friday"], ["subject", "Music"], ["content", "Listened to violin music on You Tube"], ["child_id", 1], ["created_at", "2020-12-07 00:09:20.033536"], ["updated_at", "2020-12-07 00:09:20.033536"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Load (0.1ms)[0m  [1m[34mSELECT "children".* FROM "children" WHERE "children"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSchedule Create (0.2ms)[0m  [1m[32mINSERT INTO "schedules" ("weekday", "subject", "content", "child_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["weekday", "Monday"], ["subject", "Math"], ["content", "Completed chapter 3 of Go Math"], ["child_id", 1], ["created_at", "2020-12-07 00:09:20.037821"], ["updated_at", "2020-12-07 00:09:20.037821"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Load (0.1ms)[0m  [1m[34mSELECT "children".* FROM "children" WHERE "children"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSchedule Create (0.3ms)[0m  [1m[32mINSERT INTO "schedules" ("weekday", "subject", "content", "child_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["weekday", "Tuesday"], ["subject", "Reading"], ["content", "Completed chapter 3 of Lost"], ["child_id", 1], ["created_at", "2020-12-07 00:09:20.042324"], ["updated_at", "2020-12-07 00:09:20.042324"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Load (0.1ms)[0m  [1m[34mSELECT "children".* FROM "children" WHERE "children"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSchedule Create (0.3ms)[0m  [1m[32mINSERT INTO "schedules" ("weekday", "subject", "content", "child_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["weekday", "Wednesday"], ["subject", "Creative Writing"], ["content", "Wrote a poem about dogs"], ["child_id", 1], ["created_at", "2020-12-07 00:09:20.046745"], ["updated_at", "2020-12-07 00:09:20.046745"]]
+  [1m[35m (2.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Load (0.1ms)[0m  [1m[34mSELECT "children".* FROM "children" WHERE "children"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSchedule Create (0.3ms)[0m  [1m[32mINSERT INTO "schedules" ("weekday", "subject", "content", "child_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["weekday", "Thursday"], ["subject", "Physical Education"], ["content", "Did 15 push ups"], ["child_id", 1], ["created_at", "2020-12-07 00:09:20.054027"], ["updated_at", "2020-12-07 00:09:20.054027"]]
+  [1m[35m (2.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Load (0.1ms)[0m  [1m[34mSELECT "children".* FROM "children" WHERE "children"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSchedule Create (0.3ms)[0m  [1m[32mINSERT INTO "schedules" ("weekday", "subject", "content", "child_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["weekday", "Friday"], ["subject", "Music"], ["content", "Learned to play the itsy bitsy spider song on my piano"], ["child_id", 1], ["created_at", "2020-12-07 00:09:20.060913"], ["updated_at", "2020-12-07 00:09:20.060913"]]
+  [1m[35m (2.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Load (0.1ms)[0m  [1m[34mSELECT "children".* FROM "children" WHERE "children"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSchedule Create (0.5ms)[0m  [1m[32mINSERT INTO "schedules" ("weekday", "subject", "content", "child_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["weekday", "Monday"], ["subject", "Math"], ["content", "Completed chapter 4 of Go Math"], ["child_id", 1], ["created_at", "2020-12-07 00:09:20.068095"], ["updated_at", "2020-12-07 00:09:20.068095"]]
+  [1m[35m (1.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Load (0.1ms)[0m  [1m[34mSELECT "children".* FROM "children" WHERE "children"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSchedule Create (0.4ms)[0m  [1m[32mINSERT INTO "schedules" ("weekday", "subject", "content", "child_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["weekday", "Tuesday"], ["subject", "Reading"], ["content", "Completed chapter 4 of Lost"], ["child_id", 1], ["created_at", "2020-12-07 00:09:20.076239"], ["updated_at", "2020-12-07 00:09:20.076239"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Load (0.1ms)[0m  [1m[34mSELECT "children".* FROM "children" WHERE "children"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSchedule Create (0.3ms)[0m  [1m[32mINSERT INTO "schedules" ("weekday", "subject", "content", "child_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["weekday", "Wednesday"], ["subject", "Creative Writing"], ["content", "Wrote a comic book and drew pictures"], ["child_id", 1], ["created_at", "2020-12-07 00:09:20.081419"], ["updated_at", "2020-12-07 00:09:20.081419"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Load (0.1ms)[0m  [1m[34mSELECT "children".* FROM "children" WHERE "children"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSchedule Create (0.3ms)[0m  [1m[32mINSERT INTO "schedules" ("weekday", "subject", "content", "child_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["weekday", "Thursday"], ["subject", "Physical Education"], ["content", "Did yoga for 20 minutes"], ["child_id", 1], ["created_at", "2020-12-07 00:09:20.086271"], ["updated_at", "2020-12-07 00:09:20.086271"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Load (0.1ms)[0m  [1m[34mSELECT "children".* FROM "children" WHERE "children"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSchedule Create (0.3ms)[0m  [1m[32mINSERT INTO "schedules" ("weekday", "subject", "content", "child_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["weekday", "Friday"], ["subject", "Music"], ["content", "Listened to my favorite rapper on Spotify"], ["child_id", 1], ["created_at", "2020-12-07 00:09:20.101117"], ["updated_at", "2020-12-07 00:09:20.101117"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/schedules" for 127.0.0.1 at 2020-12-06 19:09:31 -0500
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SchedulesController#index as HTML
+  [1m[36mSchedule Load (0.2ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 15ms (Views: 9.9ms | ActiveRecord: 0.7ms | Allocations: 9530)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-06 19:11:26 -0500
+Processing by SchedulesController#index as HTML
+  [1m[36mSchedule Load (0.4ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.4ms | Allocations: 3540)
+
+
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (1.1ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (2.3ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateSchedules (20201206051750)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "schedules" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "weekday" varchar, "subject" varchar, "content" varchar, "child_id" integer, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "index_schedules_on_child_id" ON "schedules" ("child_id")[0m
+  [1m[36mprimary::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20201206051750"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateChildren (20201206051854)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "children" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "age" integer, "grade" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (1.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20201206051854"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.5ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-12-07 00:12:15.903985"], ["updated_at", "2020-12-07 00:12:15.903985"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 127.0.0.1 at 2020-12-06 19:12:42 -0500
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/anikamc/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/anikamc/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 9.1ms | Allocations: 315)
+Completed 200 OK in 16ms (Views: 13.2ms | ActiveRecord: 0.0ms | Allocations: 1594)
+
+
+Started GET "/children" for 127.0.0.1 at 2020-12-06 19:12:52 -0500
+Processing by ChildrenController#index as HTML
+  [1m[36mChild Load (0.6ms)[0m  [1m[34mSELECT "children".* FROM "children"[0m
+  ↳ app/controllers/children_controller.rb:8:in `index'
+Completed 200 OK in 14ms (Views: 3.1ms | ActiveRecord: 1.7ms | Allocations: 2428)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-06 19:12:59 -0500
+Processing by SchedulesController#index as HTML
+  [1m[36mSchedule Load (0.5ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 7ms (Views: 2.6ms | ActiveRecord: 0.8ms | Allocations: 1897)
+
+
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Create (0.4ms)[0m  [1m[32mINSERT INTO "children" ("name", "age", "grade", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Malik"], ["age", 9], ["grade", "fourth"], ["created_at", "2020-12-07 00:13:16.268959"], ["updated_at", "2020-12-07 00:13:16.268959"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Load (0.1ms)[0m  [1m[34mSELECT "children".* FROM "children" WHERE "children"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSchedule Create (0.3ms)[0m  [1m[32mINSERT INTO "schedules" ("weekday", "subject", "content", "child_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["weekday", "Monday"], ["subject", "Math"], ["content", "Completed chapter 1 of Go Math"], ["child_id", 1], ["created_at", "2020-12-07 00:13:16.291091"], ["updated_at", "2020-12-07 00:13:16.291091"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Load (0.1ms)[0m  [1m[34mSELECT "children".* FROM "children" WHERE "children"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSchedule Create (0.3ms)[0m  [1m[32mINSERT INTO "schedules" ("weekday", "subject", "content", "child_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["weekday", "Tuesday"], ["subject", "Reading"], ["content", "Completed chapter 1 of Lost"], ["child_id", 1], ["created_at", "2020-12-07 00:13:16.295821"], ["updated_at", "2020-12-07 00:13:16.295821"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Load (0.2ms)[0m  [1m[34mSELECT "children".* FROM "children" WHERE "children"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSchedule Create (0.3ms)[0m  [1m[32mINSERT INTO "schedules" ("weekday", "subject", "content", "child_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["weekday", "Wednesday"], ["subject", "Creative Writing"], ["content", "Wrote a story about my Favorite things to eat"], ["child_id", 1], ["created_at", "2020-12-07 00:13:16.312786"], ["updated_at", "2020-12-07 00:13:16.312786"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Load (0.1ms)[0m  [1m[34mSELECT "children".* FROM "children" WHERE "children"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSchedule Create (0.3ms)[0m  [1m[32mINSERT INTO "schedules" ("weekday", "subject", "content", "child_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["weekday", "Thursday"], ["subject", "Physical Education"], ["content", "Did 15 Jumping Jacks and 15 Sit Ups"], ["child_id", 1], ["created_at", "2020-12-07 00:13:16.318304"], ["updated_at", "2020-12-07 00:13:16.318304"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Load (0.1ms)[0m  [1m[34mSELECT "children".* FROM "children" WHERE "children"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSchedule Create (0.3ms)[0m  [1m[32mINSERT INTO "schedules" ("weekday", "subject", "content", "child_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["weekday", "Friday"], ["subject", "Music"], ["content", "Listened to Beethoven on You Tube"], ["child_id", 1], ["created_at", "2020-12-07 00:13:16.323277"], ["updated_at", "2020-12-07 00:13:16.323277"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Load (0.1ms)[0m  [1m[34mSELECT "children".* FROM "children" WHERE "children"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSchedule Create (0.4ms)[0m  [1m[32mINSERT INTO "schedules" ("weekday", "subject", "content", "child_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["weekday", "Monday"], ["subject", "Math"], ["content", "Completed chapter 2 of Go Math"], ["child_id", 1], ["created_at", "2020-12-07 00:13:16.331587"], ["updated_at", "2020-12-07 00:13:16.331587"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Load (0.1ms)[0m  [1m[34mSELECT "children".* FROM "children" WHERE "children"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSchedule Create (0.3ms)[0m  [1m[32mINSERT INTO "schedules" ("weekday", "subject", "content", "child_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["weekday", "Tuesday"], ["subject", "Reading"], ["content", "Completed chapter 2 of Lost"], ["child_id", 1], ["created_at", "2020-12-07 00:13:16.337249"], ["updated_at", "2020-12-07 00:13:16.337249"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Load (0.1ms)[0m  [1m[34mSELECT "children".* FROM "children" WHERE "children"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSchedule Create (0.3ms)[0m  [1m[32mINSERT INTO "schedules" ("weekday", "subject", "content", "child_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["weekday", "Wednesday"], ["subject", "Creative Writing"], ["content", "Wrote a story about my family"], ["child_id", 1], ["created_at", "2020-12-07 00:13:16.342485"], ["updated_at", "2020-12-07 00:13:16.342485"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Load (0.1ms)[0m  [1m[34mSELECT "children".* FROM "children" WHERE "children"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSchedule Create (0.3ms)[0m  [1m[32mINSERT INTO "schedules" ("weekday", "subject", "content", "child_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["weekday", "Thursday"], ["subject", "Physical Education"], ["content", "Did 15 Sqauts and jogged on the spot for 5 minutes"], ["child_id", 1], ["created_at", "2020-12-07 00:13:16.348742"], ["updated_at", "2020-12-07 00:13:16.348742"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Load (0.1ms)[0m  [1m[34mSELECT "children".* FROM "children" WHERE "children"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSchedule Create (0.3ms)[0m  [1m[32mINSERT INTO "schedules" ("weekday", "subject", "content", "child_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["weekday", "Friday"], ["subject", "Music"], ["content", "Listened to violin music on You Tube"], ["child_id", 1], ["created_at", "2020-12-07 00:13:16.358351"], ["updated_at", "2020-12-07 00:13:16.358351"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Load (0.1ms)[0m  [1m[34mSELECT "children".* FROM "children" WHERE "children"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSchedule Create (0.5ms)[0m  [1m[32mINSERT INTO "schedules" ("weekday", "subject", "content", "child_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["weekday", "Monday"], ["subject", "Math"], ["content", "Completed chapter 3 of Go Math"], ["child_id", 1], ["created_at", "2020-12-07 00:13:16.369596"], ["updated_at", "2020-12-07 00:13:16.369596"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Load (0.1ms)[0m  [1m[34mSELECT "children".* FROM "children" WHERE "children"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSchedule Create (0.3ms)[0m  [1m[32mINSERT INTO "schedules" ("weekday", "subject", "content", "child_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["weekday", "Tuesday"], ["subject", "Reading"], ["content", "Completed chapter 3 of Lost"], ["child_id", 1], ["created_at", "2020-12-07 00:13:16.378843"], ["updated_at", "2020-12-07 00:13:16.378843"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Load (0.7ms)[0m  [1m[34mSELECT "children".* FROM "children" WHERE "children"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSchedule Create (0.3ms)[0m  [1m[32mINSERT INTO "schedules" ("weekday", "subject", "content", "child_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["weekday", "Wednesday"], ["subject", "Creative Writing"], ["content", "Wrote a poem about dogs"], ["child_id", 1], ["created_at", "2020-12-07 00:13:16.389307"], ["updated_at", "2020-12-07 00:13:16.389307"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Load (0.2ms)[0m  [1m[34mSELECT "children".* FROM "children" WHERE "children"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSchedule Create (0.3ms)[0m  [1m[32mINSERT INTO "schedules" ("weekday", "subject", "content", "child_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["weekday", "Thursday"], ["subject", "Physical Education"], ["content", "Did 15 push ups"], ["child_id", 1], ["created_at", "2020-12-07 00:13:16.401474"], ["updated_at", "2020-12-07 00:13:16.401474"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Load (0.1ms)[0m  [1m[34mSELECT "children".* FROM "children" WHERE "children"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSchedule Create (0.3ms)[0m  [1m[32mINSERT INTO "schedules" ("weekday", "subject", "content", "child_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["weekday", "Friday"], ["subject", "Music"], ["content", "Learned to play the itsy bitsy spider song on my piano"], ["child_id", 1], ["created_at", "2020-12-07 00:13:16.412390"], ["updated_at", "2020-12-07 00:13:16.412390"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Load (0.1ms)[0m  [1m[34mSELECT "children".* FROM "children" WHERE "children"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSchedule Create (0.3ms)[0m  [1m[32mINSERT INTO "schedules" ("weekday", "subject", "content", "child_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["weekday", "Monday"], ["subject", "Math"], ["content", "Completed chapter 4 of Go Math"], ["child_id", 1], ["created_at", "2020-12-07 00:13:16.433255"], ["updated_at", "2020-12-07 00:13:16.433255"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Load (0.1ms)[0m  [1m[34mSELECT "children".* FROM "children" WHERE "children"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSchedule Create (0.3ms)[0m  [1m[32mINSERT INTO "schedules" ("weekday", "subject", "content", "child_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["weekday", "Tuesday"], ["subject", "Reading"], ["content", "Completed chapter 4 of Lost"], ["child_id", 1], ["created_at", "2020-12-07 00:13:16.438660"], ["updated_at", "2020-12-07 00:13:16.438660"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Load (0.1ms)[0m  [1m[34mSELECT "children".* FROM "children" WHERE "children"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSchedule Create (0.3ms)[0m  [1m[32mINSERT INTO "schedules" ("weekday", "subject", "content", "child_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["weekday", "Wednesday"], ["subject", "Creative Writing"], ["content", "Wrote a comic book and drew pictures"], ["child_id", 1], ["created_at", "2020-12-07 00:13:16.443433"], ["updated_at", "2020-12-07 00:13:16.443433"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Load (0.1ms)[0m  [1m[34mSELECT "children".* FROM "children" WHERE "children"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSchedule Create (0.3ms)[0m  [1m[32mINSERT INTO "schedules" ("weekday", "subject", "content", "child_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["weekday", "Thursday"], ["subject", "Physical Education"], ["content", "Did yoga for 20 minutes"], ["child_id", 1], ["created_at", "2020-12-07 00:13:16.447751"], ["updated_at", "2020-12-07 00:13:16.447751"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Load (0.1ms)[0m  [1m[34mSELECT "children".* FROM "children" WHERE "children"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSchedule Create (0.3ms)[0m  [1m[32mINSERT INTO "schedules" ("weekday", "subject", "content", "child_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["weekday", "Friday"], ["subject", "Music"], ["content", "Listened to my favorite rapper on Spotify"], ["child_id", 1], ["created_at", "2020-12-07 00:13:16.452973"], ["updated_at", "2020-12-07 00:13:16.452973"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/schedules" for 127.0.0.1 at 2020-12-06 19:13:22 -0500
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SchedulesController#index as HTML
+  [1m[36mSchedule Load (0.2ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 24ms (Views: 17.5ms | ActiveRecord: 1.0ms | Allocations: 9401)
+
+
+Started GET "/children" for 127.0.0.1 at 2020-12-06 19:14:07 -0500
+Processing by ChildrenController#index as HTML
+  [1m[36mChild Load (0.2ms)[0m  [1m[34mSELECT "children".* FROM "children"[0m
+  ↳ app/controllers/children_controller.rb:8:in `index'
+Completed 200 OK in 12ms (Views: 8.6ms | ActiveRecord: 0.7ms | Allocations: 5927)
+
+
