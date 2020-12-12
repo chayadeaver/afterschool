@@ -1,0 +1,7 @@
+<div class="container">
+        <form id="new-schedule-form">
+            <input type="text" />
+            <input type="submit" />
+        </form>
+
+        

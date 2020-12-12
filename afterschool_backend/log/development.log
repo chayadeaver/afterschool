@@ -2132,3 +2132,334 @@ puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
 puma (4.3.6) lib/puma/server.rb:472:in `process_client'
 puma (4.3.6) lib/puma/server.rb:328:in `block in run'
 puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2020-12-08 21:23:34 -0500
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/anikamc/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/anikamc/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 19.5ms | Allocations: 196)
+Completed 200 OK in 28ms (Views: 25.3ms | ActiveRecord: 0.0ms | Allocations: 743)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-08 21:23:42 -0500
+Processing by SchedulesController#index as HTML
+  [1m[36mSchedule Load (0.7ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 29ms (Views: 16.6ms | ActiveRecord: 1.4ms | Allocations: 9112)
+
+
+Started GET "/schedules%7D" for 127.0.0.1 at 2020-12-10 21:28:50 -0500
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (No route matches [GET] "/schedules%7D"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/schedules%7D" for 127.0.0.1 at 2020-12-10 22:04:10 -0500
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/schedules%7D"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/schedules" for 127.0.0.1 at 2020-12-10 22:04:22 -0500
+Processing by SchedulesController#index as HTML
+  [1m[36mSchedule Load (2.0ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 31ms (Views: 21.8ms | ActiveRecord: 3.1ms | Allocations: 9418)
+
+
+Started GET "/schedules%7D" for 127.0.0.1 at 2020-12-10 22:04:26 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/schedules%7D"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/schedules%7D" for 127.0.0.1 at 2020-12-10 22:08:58 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/schedules%7D"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/schedules" for 127.0.0.1 at 2020-12-10 22:14:17 -0500
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SchedulesController#index as HTML
+Completed 404 Not Found in 13ms (ActiveRecord: 0.6ms | Allocations: 1910)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Schedule without an ID):
+  
+app/controllers/schedules_controller.rb:44:in `set_schedule'
+Started GET "/schedules" for 127.0.0.1 at 2020-12-10 22:15:08 -0500
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SchedulesController#index as HTML
+  [1m[36mSchedule Load (0.7ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 33ms (Views: 25.4ms | ActiveRecord: 1.9ms | Allocations: 9401)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-10 23:10:43 -0500
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.8ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 16ms (Views: 12.4ms | ActiveRecord: 0.8ms | Allocations: 3432)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-10 23:34:53 -0500
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.9ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 15ms (Views: 12.2ms | ActiveRecord: 0.9ms | Allocations: 3428)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-11 00:03:41 -0500
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.9ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 14ms (Views: 9.5ms | ActiveRecord: 0.9ms | Allocations: 3428)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-11 00:04:51 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.5ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.5ms | Allocations: 3412)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-11 00:05:41 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.3ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.3ms | Allocations: 3395)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-11 00:07:17 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.7ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.7ms | Allocations: 3395)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-11 21:24:08 -0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.8ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 10ms (Views: 8.1ms | ActiveRecord: 0.8ms | Allocations: 3418)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-12 01:52:56 -0500
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (1.9ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 24ms (Views: 19.5ms | ActiveRecord: 1.9ms | Allocations: 3417)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-12 01:53:43 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.4ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.4ms | Allocations: 3395)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-12 01:53:45 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (1.0ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 10ms (Views: 8.0ms | ActiveRecord: 1.0ms | Allocations: 3395)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-12 01:56:19 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.3ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 7ms (Views: 5.7ms | ActiveRecord: 0.3ms | Allocations: 3395)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-12 09:57:04 -0500
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (1.7ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 24ms (Views: 19.5ms | ActiveRecord: 1.7ms | Allocations: 3418)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-12 14:39:52 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (1.6ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 12ms (Views: 7.7ms | ActiveRecord: 1.6ms | Allocations: 3418)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-12 14:45:55 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (2.1ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 17ms (Views: 13.7ms | ActiveRecord: 2.1ms | Allocations: 3417)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-12 14:46:13 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.4ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 16ms (Views: 14.7ms | ActiveRecord: 0.4ms | Allocations: 3395)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-12 14:47:15 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (1.2ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 23ms (Views: 18.6ms | ActiveRecord: 1.2ms | Allocations: 3395)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-12 15:06:11 -0500
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (2.6ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 24ms (Views: 18.5ms | ActiveRecord: 2.6ms | Allocations: 3417)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-12 15:09:10 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.3ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.3ms | Allocations: 3395)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-12 15:18:01 -0500
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.8ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 15ms (Views: 11.5ms | ActiveRecord: 0.8ms | Allocations: 3417)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-12 15:19:03 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.2ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 9ms (Views: 6.5ms | ActiveRecord: 0.2ms | Allocations: 3395)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-12 15:20:36 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.4ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 12ms (Views: 8.3ms | ActiveRecord: 0.4ms | Allocations: 3395)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-12 15:21:24 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (2.7ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 51ms (Views: 46.7ms | ActiveRecord: 2.7ms | Allocations: 3398)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-12 15:21:25 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.3ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.3ms | Allocations: 3395)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-12 15:21:34 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.3ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.3ms | Allocations: 3395)
+
+
