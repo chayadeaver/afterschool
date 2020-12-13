@@ -4,6 +4,7 @@ class Schedule{
         this.weekday = weekday
         this.subject = subject
         this.content = content
+        this.week = week
         // creating and initializing objects of this class
     }
 
