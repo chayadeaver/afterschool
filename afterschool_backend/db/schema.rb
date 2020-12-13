@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_12_06_051854) do
+ActiveRecord::Schema.define(version: 2020_12_13_183618) do
 
   create_table "children", force: :cascade do |t|
     t.string "name"
@@ -27,6 +27,7 @@ ActiveRecord::Schema.define(version: 2020_12_06_051854) do
     t.integer "child_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.integer "week"
     t.index ["child_id"], name: "index_schedules_on_child_id"
   end
 
