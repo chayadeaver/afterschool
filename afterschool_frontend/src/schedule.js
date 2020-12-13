@@ -12,7 +12,7 @@ class Schedule{
     //     let schedulesDiv = document.getElementById("schedules-container")
     //     //will collect any current and future schedules
 
-    renderSchedules() {
+    renderSchedule() {
         return (
             `<div id=${this.id}>
                 <h4>Day: ${this.weekday}</h4>
