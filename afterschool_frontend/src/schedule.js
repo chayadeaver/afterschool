@@ -11,9 +11,9 @@ class Schedule{
         renderSchedule() {
             //grabbing the math table
             let mathArea = document.querySelector("math-table"); 
-            mathArea.classList.add("table")
-            mathArea.classList.add("table-success")
-            mathArea.classList.add("table-striped")
+            mathArea.classList.add("table");
+            mathArea.classList.add("table-success");
+            mathArea.classList.add("table-striped");
         
             //creating a new table row
             let mathRow = document.createElement('th');
