@@ -2,6 +2,13 @@
         <form id="new-schedule-form">
             <input type="text" />
             <input type="submit" />
-        </form>
+        </form>\
 
-        
+
+
+        renderSchedule() {
+        //grabbing the math table
+        let mathArea = document.querySelector("math-table"); 
+        //creating a new table row
+        let mathRow = document.createElement('th');
+

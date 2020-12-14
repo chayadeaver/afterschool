@@ -15,9 +15,9 @@ function fetchSchedules(){
     
     for (const schedule of schedules){
         //for each schedule, create a new schedule object with the following properties.
-        let s = new Schedule(schedule.id, schedule.weekday, schedule.subject, schedule.content)
+        let s = new Schedule(schedule.id, schedule.weekday, schedule.subject, schedule.content, schedule.week)
+        s.renderSchedule();
        
-    ;
     }
 })
     
