@@ -8,14 +8,17 @@ class Schedule{
         // creating and initializing objects of this class
     }
 
-        renderSchedule() {
-            //grabbing the math table
-            let mathArea = document.querySelector("math-table"); 
-        
-            //creating a new table row
-            let mathRow = document.createElement('th');
+    renderSchedule() {
+    //grabbing the math table
+        let mathArea = document.querySelector("math-table"); 
+            
+        //creating a new table row
+        let mathRow = document.createElement('th');
            
-        }
+    }
+
+
+   
 }
 
 
