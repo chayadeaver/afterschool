@@ -13,7 +13,8 @@ class Schedule{
         let mathArea = document.querySelector("math-table"); 
             
         //creating a new table row
-        let mathRow = document.createElement('th');
+        let mathRow = document.createElement('tr');
+        
            
     }
 
