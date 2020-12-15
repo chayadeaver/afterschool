@@ -10,11 +10,23 @@ class Schedule{
 
     renderSchedule() {
     //grabbing the math table
-        let mathArea = document.querySelector("math-table"); 
+        let mathArea = document.getElementById("math-table"); 
             
         //creating a new table row
-        let mathRow = document.createElement('tr');
-        
+        let row = mathArea.insertRow(0);
+
+        //inserting cells into the rows
+        let cell1 = row.insertCell(0);
+        let cell2 = row.insertCell(1);
+
+        //add content to cell
+        cell1.innerHTML = "Test Cell 1";
+        cell2.innerHTML = "Test Cell 2";
+        // let mathRow = document.createElement('tr');
+        // mathContent = document.innertext("");
+        // mathContent = document.getElementById("class");
+        // row = table.insertRow(0)
+
            
     }
 
