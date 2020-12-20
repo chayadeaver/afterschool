@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => { 
     fetchSchedules()
     let newScheduleBtn = document.querySelector('#create-schedule');  // identifies the button 
-    newScheduleBtn.addEventListener("click", (event) => showScheduleModal(event), false); // adds event listener to button and redirects to open model function 
+    newScheduleBtn.addEventListener("click", (event) => showScheduleModal(event), false); // adds event listener to button and redirects to open modal function 
 
 })
 
@@ -22,16 +22,16 @@ function fetchSchedules(){
     
 }
 // shows modal 
-function showScheduleModal() {
+    function showScheduleModal() {
     // debugger;
     //references the modal in html
-const addScheduleModal = document.getElementById("add-modal");
+    const addScheduleModal = document.getElementById("add-modal");
 // opening the modal 
-$(addScheduleModal).modal("show", {
-backdrop: "static"
-});
+        $(addScheduleModal).modal("show", {
+            backdrop: "static"
+    });
 // debugger;
-addScheduleModal.addEventListener("submit", createSchedule);
+        addScheduleModal.addEventListener("submit", createSchedule);
 }
 
 // create schedules
@@ -42,16 +42,16 @@ function createSchedule() {
       subject: event.target.subject.value,
       weekday: event.target.weekday.value,
       content: event.target.content.value,
-      week: parseInt(event.target.week.value),
+      week: parseInt(event.target.week.value)
     };
   
     fetch(`${BASE_URL}/schedules`, {
         method: "POST",
         headers: {
             'Accept': 'application/json',
-            'Content-Type': 'application/json'
+            'Content-Type': 'application/json',
           },
-        body: JSON.stringify(schedule)
+        body: JSON.stringify(schedule),
     })
     .then(resp => resp.json())
     .then(schedule => {
@@ -59,7 +59,9 @@ function createSchedule() {
         s.renderSchedule();
 })
         
-    
+
+// function deleteSchedule(){}
+
   
 }
 //delete
