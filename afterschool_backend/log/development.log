@@ -3156,3 +3156,1318 @@ Processing by SchedulesController#index as */*
 Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.1ms | Allocations: 1908)
 
 
+Started GET "/schedules" for 127.0.0.1 at 2020-12-13 21:28:23 -0500
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (3.9ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 69ms (Views: 50.4ms | ActiveRecord: 3.9ms | Allocations: 1929)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-13 21:29:16 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.9ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 37ms (Views: 34.8ms | ActiveRecord: 0.9ms | Allocations: 1905)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-13 21:31:17 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (2.0ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 22ms (Views: 18.6ms | ActiveRecord: 2.0ms | Allocations: 1905)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-13 21:31:38 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.2ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 13ms (Views: 12.6ms | ActiveRecord: 0.2ms | Allocations: 1905)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-13 21:32:31 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (1.1ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 19ms (Views: 15.5ms | ActiveRecord: 1.1ms | Allocations: 1905)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-13 21:45:41 -0500
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (1.6ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 24ms (Views: 20.3ms | ActiveRecord: 1.6ms | Allocations: 1929)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-13 21:45:42 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.9ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 16ms (Views: 14.0ms | ActiveRecord: 0.9ms | Allocations: 1905)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-13 21:49:22 -0500
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.5ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 14ms (Views: 9.0ms | ActiveRecord: 1.0ms | Allocations: 8591)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-14 19:45:52 -0500
+  [1m[35m (3.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (2.9ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 57ms (Views: 40.7ms | ActiveRecord: 2.9ms | Allocations: 1941)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-14 20:53:34 -0500
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (1.8ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 43ms (Views: 30.2ms | ActiveRecord: 1.8ms | Allocations: 1940)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-14 20:53:36 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (1.7ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 34ms (Views: 29.9ms | ActiveRecord: 1.7ms | Allocations: 1922)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-14 20:54:54 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (3.4ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 19ms (Views: 15.1ms | ActiveRecord: 3.4ms | Allocations: 1922)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-14 21:08:09 -0500
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.6ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 31ms (Views: 27.1ms | ActiveRecord: 0.6ms | Allocations: 1929)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-14 21:08:11 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (3.0ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 247ms (Views: 242.5ms | ActiveRecord: 3.0ms | Allocations: 1905)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-14 21:08:33 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.2ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 99ms (Views: 97.7ms | ActiveRecord: 0.2ms | Allocations: 1905)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-14 21:08:53 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (31.0ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 97ms (Views: 66.0ms | ActiveRecord: 31.0ms | Allocations: 1905)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-14 21:19:55 -0500
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (1.8ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 87ms (Views: 82.5ms | ActiveRecord: 1.8ms | Allocations: 1929)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-14 21:33:08 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (2.0ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 72ms (Views: 69.8ms | ActiveRecord: 2.0ms | Allocations: 1929)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-14 21:33:42 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.2ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 56ms (Views: 55.1ms | ActiveRecord: 0.2ms | Allocations: 1905)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-14 21:44:07 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.8ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 78ms (Views: 76.8ms | ActiveRecord: 0.8ms | Allocations: 1929)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-14 21:44:12 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.1ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 18ms (Views: 17.2ms | ActiveRecord: 0.1ms | Allocations: 1905)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-14 21:46:52 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (1.0ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 60ms (Views: 59.1ms | ActiveRecord: 1.0ms | Allocations: 1905)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-14 21:47:15 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.2ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 68ms (Views: 67.4ms | ActiveRecord: 0.2ms | Allocations: 1905)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 11:48:54 -0500
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (4.7ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 89ms (Views: 71.1ms | ActiveRecord: 4.7ms | Allocations: 1930)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 12:11:29 -0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (7.0ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 65ms (Views: 53.1ms | ActiveRecord: 7.0ms | Allocations: 1929)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 12:16:14 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (2.6ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 42ms (Views: 35.3ms | ActiveRecord: 2.6ms | Allocations: 1905)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 12:16:46 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (11.1ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 48ms (Views: 36.2ms | ActiveRecord: 11.1ms | Allocations: 1905)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 13:00:40 -0500
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.9ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 56ms (Views: 52.2ms | ActiveRecord: 0.9ms | Allocations: 1929)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 13:05:32 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.9ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 38ms (Views: 35.6ms | ActiveRecord: 0.9ms | Allocations: 1905)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 13:05:47 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.2ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 53ms (Views: 51.5ms | ActiveRecord: 0.2ms | Allocations: 1905)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 13:06:39 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (6.1ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 41ms (Views: 32.7ms | ActiveRecord: 6.1ms | Allocations: 1905)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 13:12:13 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (1.5ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 31ms (Views: 28.3ms | ActiveRecord: 1.5ms | Allocations: 1905)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 13:31:33 -0500
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by SchedulesController#index as HTML
+  [1m[36mSchedule Load (1.9ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 10ms (Views: 6.8ms | ActiveRecord: 1.9ms | Allocations: 1929)
+
+
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mSchedule Destroy (2.6ms)[0m  [1m[31mDELETE FROM "schedules"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Create (2.0ms)[0m  [1m[32mINSERT INTO "children" ("name", "age", "grade", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Malik"], ["age", 9], ["grade", "fourth"], ["created_at", "2020-12-19 18:32:15.042504"], ["updated_at", "2020-12-19 18:32:15.042504"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Load (0.1ms)[0m  [1m[34mSELECT "children".* FROM "children" WHERE "children"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSchedule Create (0.3ms)[0m  [1m[32mINSERT INTO "schedules" ("weekday", "subject", "content", "child_id", "created_at", "updated_at", "week") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["weekday", "Monday"], ["subject", "Math"], ["content", "Completed chapter 1 of Go Math"], ["child_id", 1], ["created_at", "2020-12-19 18:32:15.062174"], ["updated_at", "2020-12-19 18:32:15.062174"], ["week", 1]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Load (0.1ms)[0m  [1m[34mSELECT "children".* FROM "children" WHERE "children"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSchedule Create (0.3ms)[0m  [1m[32mINSERT INTO "schedules" ("weekday", "subject", "content", "child_id", "created_at", "updated_at", "week") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["weekday", "Monday"], ["subject", "Reading"], ["content", "Completed chapter 1 of Lost"], ["child_id", 1], ["created_at", "2020-12-19 18:32:15.067112"], ["updated_at", "2020-12-19 18:32:15.067112"], ["week", 1]]
+  [1m[35m (1.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Load (0.1ms)[0m  [1m[34mSELECT "children".* FROM "children" WHERE "children"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSchedule Create (0.3ms)[0m  [1m[32mINSERT INTO "schedules" ("weekday", "subject", "content", "child_id", "created_at", "updated_at", "week") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["weekday", "Monday"], ["subject", "Creative Writing"], ["content", "Wrote a story about my Favorite things to eat"], ["child_id", 1], ["created_at", "2020-12-19 18:32:15.072916"], ["updated_at", "2020-12-19 18:32:15.072916"], ["week", 1]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Load (0.1ms)[0m  [1m[34mSELECT "children".* FROM "children" WHERE "children"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSchedule Create (0.3ms)[0m  [1m[32mINSERT INTO "schedules" ("weekday", "subject", "content", "child_id", "created_at", "updated_at", "week") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["weekday", "Tuesday"], ["subject", "Math"], ["content", "Did 15 Jumping Jacks and 15 Sit Ups"], ["child_id", 1], ["created_at", "2020-12-19 18:32:15.088260"], ["updated_at", "2020-12-19 18:32:15.088260"], ["week", 1]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Load (0.1ms)[0m  [1m[34mSELECT "children".* FROM "children" WHERE "children"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSchedule Create (0.3ms)[0m  [1m[32mINSERT INTO "schedules" ("weekday", "subject", "content", "child_id", "created_at", "updated_at", "week") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["weekday", "Tuesday"], ["subject", "Reading"], ["content", "Listened to Beethoven on You Tube"], ["child_id", 1], ["created_at", "2020-12-19 18:32:15.093038"], ["updated_at", "2020-12-19 18:32:15.093038"], ["week", 1]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Load (0.1ms)[0m  [1m[34mSELECT "children".* FROM "children" WHERE "children"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSchedule Create (0.3ms)[0m  [1m[32mINSERT INTO "schedules" ("weekday", "subject", "content", "child_id", "created_at", "updated_at", "week") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["weekday", "Tuesday"], ["subject", "Creative Writing"], ["content", "Completed chapter 2 of Go Math"], ["child_id", 1], ["created_at", "2020-12-19 18:32:15.097986"], ["updated_at", "2020-12-19 18:32:15.097986"], ["week", 1]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Load (0.1ms)[0m  [1m[34mSELECT "children".* FROM "children" WHERE "children"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSchedule Create (0.3ms)[0m  [1m[32mINSERT INTO "schedules" ("weekday", "subject", "content", "child_id", "created_at", "updated_at", "week") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["weekday", "Wednesday"], ["subject", "Math"], ["content", "Completed chapter 2 of Lost"], ["child_id", 1], ["created_at", "2020-12-19 18:32:15.102389"], ["updated_at", "2020-12-19 18:32:15.102389"], ["week", 1]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Load (0.1ms)[0m  [1m[34mSELECT "children".* FROM "children" WHERE "children"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSchedule Create (0.2ms)[0m  [1m[32mINSERT INTO "schedules" ("weekday", "subject", "content", "child_id", "created_at", "updated_at", "week") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["weekday", "Wednesday"], ["subject", "Reading"], ["content", "Wrote a story about my family"], ["child_id", 1], ["created_at", "2020-12-19 18:32:15.106507"], ["updated_at", "2020-12-19 18:32:15.106507"], ["week", 1]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Load (0.1ms)[0m  [1m[34mSELECT "children".* FROM "children" WHERE "children"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSchedule Create (0.3ms)[0m  [1m[32mINSERT INTO "schedules" ("weekday", "subject", "content", "child_id", "created_at", "updated_at", "week") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["weekday", "Wednesday"], ["subject", "Creative Writing"], ["content", "Wrote a story about my family"], ["child_id", 1], ["created_at", "2020-12-19 18:32:15.111192"], ["updated_at", "2020-12-19 18:32:15.111192"], ["week", 1]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 13:32:23 -0500
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SchedulesController#index as HTML
+  [1m[36mSchedule Load (0.2ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 32ms (Views: 23.3ms | ActiveRecord: 0.8ms | Allocations: 8729)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 14:15:02 -0500
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.3ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 26ms (Views: 21.2ms | ActiveRecord: 0.3ms | Allocations: 2080)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 14:16:04 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (1.3ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 25ms (Views: 20.3ms | ActiveRecord: 1.3ms | Allocations: 2060)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 14:16:19 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.8ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 39ms (Views: 34.1ms | ActiveRecord: 0.8ms | Allocations: 2060)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 14:17:00 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (2.4ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 22ms (Views: 16.1ms | ActiveRecord: 2.4ms | Allocations: 2060)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 14:45:22 -0500
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (35.4ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 230ms (Views: 184.8ms | ActiveRecord: 35.4ms | Allocations: 2067)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 14:46:07 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.2ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 98ms (Views: 96.4ms | ActiveRecord: 0.2ms | Allocations: 2043)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 15:26:06 -0500
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (1.0ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 184ms (Views: 178.2ms | ActiveRecord: 1.0ms | Allocations: 2067)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 15:26:08 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (1.6ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 21ms (Views: 19.2ms | ActiveRecord: 1.6ms | Allocations: 2043)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 15:26:36 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.8ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 20ms (Views: 16.4ms | ActiveRecord: 0.8ms | Allocations: 2043)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 15:27:21 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (1.6ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 22ms (Views: 17.7ms | ActiveRecord: 1.6ms | Allocations: 2043)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 15:31:38 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.5ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 12ms (Views: 10.5ms | ActiveRecord: 0.5ms | Allocations: 2044)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 15:32:11 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.1ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.1ms | Allocations: 2043)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 15:33:19 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (1.5ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 13ms (Views: 10.6ms | ActiveRecord: 1.5ms | Allocations: 2043)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 15:41:09 -0500
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.3ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 16ms (Views: 14.0ms | ActiveRecord: 0.3ms | Allocations: 2067)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 15:42:52 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.2ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.2ms | Allocations: 2043)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 15:43:01 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.3ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.3ms | Allocations: 2043)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 15:43:14 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.2ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.2ms | Allocations: 2043)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 15:43:28 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.8ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 8ms (Views: 6.4ms | ActiveRecord: 0.8ms | Allocations: 2043)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 15:43:57 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.2ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 4.9ms | ActiveRecord: 0.2ms | Allocations: 2043)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 15:44:09 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.3ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.3ms | Allocations: 2043)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 15:50:38 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.8ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 9ms (Views: 7.8ms | ActiveRecord: 0.8ms | Allocations: 2067)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 15:51:13 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.2ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 9ms (Views: 7.0ms | ActiveRecord: 0.2ms | Allocations: 2043)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 15:51:18 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.4ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.4ms | Allocations: 2043)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 15:51:34 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.2ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.2ms | Allocations: 2043)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 15:54:52 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (1.3ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 7ms (Views: 5.5ms | ActiveRecord: 1.3ms | Allocations: 2043)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 15:54:54 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (1.5ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 7ms (Views: 5.2ms | ActiveRecord: 1.5ms | Allocations: 2043)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 15:55:34 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.2ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 4.0ms | ActiveRecord: 0.2ms | Allocations: 2043)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 15:56:04 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.2ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 13ms (Views: 11.2ms | ActiveRecord: 0.2ms | Allocations: 2043)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 15:57:27 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.2ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.2ms | Allocations: 2043)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 15:58:58 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.2ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.2ms | Allocations: 2043)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 16:03:56 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.1ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 114ms (Views: 112.0ms | ActiveRecord: 0.1ms | Allocations: 2046)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 16:05:10 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.2ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.2ms | Allocations: 2043)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 16:07:55 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.2ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.2ms | Allocations: 2043)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 16:08:01 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.1ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.1ms | Allocations: 2043)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 16:09:03 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.1ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.1ms | Allocations: 2043)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 16:10:03 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.2ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.2ms | Allocations: 2043)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 16:18:18 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.4ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 8ms (Views: 6.2ms | ActiveRecord: 0.4ms | Allocations: 2067)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 16:18:20 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (1.0ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 9ms (Views: 7.4ms | ActiveRecord: 1.0ms | Allocations: 2043)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 16:18:21 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.3ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.3ms | Allocations: 2043)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 16:26:49 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.2ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.2ms | Allocations: 2067)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 16:27:14 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.1ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.1ms | Allocations: 2043)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 16:29:27 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.2ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.2ms | Allocations: 2043)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 16:29:28 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.5ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 7ms (Views: 5.9ms | ActiveRecord: 0.5ms | Allocations: 2043)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 16:30:02 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.3ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.3ms | Allocations: 2043)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 16:32:49 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.2ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.2ms | Allocations: 2043)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 16:32:50 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.2ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.2ms | Allocations: 2043)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 16:33:26 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.8ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 10ms (Views: 8.6ms | ActiveRecord: 0.8ms | Allocations: 2043)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 16:33:28 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (1.0ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 10ms (Views: 8.5ms | ActiveRecord: 1.0ms | Allocations: 2043)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 16:35:26 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.3ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 11ms (Views: 9.3ms | ActiveRecord: 0.3ms | Allocations: 2043)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 16:35:40 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (1.5ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 17ms (Views: 10.9ms | ActiveRecord: 1.5ms | Allocations: 2043)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 16:37:05 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.1ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 81ms (Views: 79.9ms | ActiveRecord: 0.1ms | Allocations: 2046)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 16:45:55 -0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.2ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.2ms | Allocations: 2067)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 16:46:02 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.2ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.2ms | Allocations: 2043)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 16:47:09 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.2ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 3.9ms | ActiveRecord: 0.2ms | Allocations: 2043)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 16:48:27 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.2ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.2ms | Allocations: 2043)
+
+
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "children"[0m
+  [1m[35m (3.8ms)[0m  [1m[35mCREATE TABLE "children" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "age" integer, "grade" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "schedules"[0m
+  [1m[35m (1.3ms)[0m  [1m[35mCREATE TABLE "schedules" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "weekday" varchar, "subject" varchar, "content" varchar, "child_id" integer, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL, "week" integer)[0m
+  [1m[35m (1.2ms)[0m  [1m[35mCREATE  INDEX "index_schedules_on_child_id" ON "schedules" ("child_id")[0m
+  [1m[35m (1.5ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (2.0ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20201213183618)[0m
+  [1m[35m (1.0ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES
+(20201206051750),
+(20201206051854);
+
+[0m
+  [1m[35m (1.0ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-12-19 21:49:37.386624"], ["updated_at", "2020-12-19 21:49:37.386624"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "schema_sha1"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "schema_sha1"], ["value", "822f3ddac7cd9858aacab6969047f82ed0c5b83f"], ["created_at", "2020-12-19 21:49:37.394384"], ["updated_at", "2020-12-19 21:49:37.394384"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[35mDROP TABLE IF EXISTS "children"[0m
+  [1m[35m (1.0ms)[0m  [1m[35mCREATE TABLE "children" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "age" integer, "grade" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.2ms)[0m  [1m[35mDROP TABLE IF EXISTS "schedules"[0m
+  [1m[35m (1.3ms)[0m  [1m[35mCREATE TABLE "schedules" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "weekday" varchar, "subject" varchar, "content" varchar, "child_id" integer, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL, "week" integer)[0m
+  [1m[35m (1.3ms)[0m  [1m[35mCREATE  INDEX "index_schedules_on_child_id" ON "schedules" ("child_id")[0m
+  [1m[35m (1.1ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (1.0ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20201213183618)[0m
+  [1m[35m (0.9ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES
+(20201206051750),
+(20201206051854);
+
+[0m
+  [1m[35m (1.0ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-12-19 21:49:37.438941"], ["updated_at", "2020-12-19 21:49:37.438941"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Update (28.3ms)[0m  [1m[33mUPDATE "ar_internal_metadata" SET "value" = ?, "updated_at" = ? WHERE "ar_internal_metadata"."key" = ?[0m  [["value", "test"], ["updated_at", "2020-12-19 21:49:37.444951"], ["key", "environment"]]
+  [1m[35m (6.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "schema_sha1"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.7ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "schema_sha1"], ["value", "822f3ddac7cd9858aacab6969047f82ed0c5b83f"], ["created_at", "2020-12-19 21:49:37.486114"], ["updated_at", "2020-12-19 21:49:37.486114"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mSchedule Destroy (1.5ms)[0m  [1m[31mDELETE FROM "schedules"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Create (1.0ms)[0m  [1m[32mINSERT INTO "children" ("name", "age", "grade", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Malik"], ["age", 9], ["grade", "fourth"], ["created_at", "2020-12-19 21:49:37.524456"], ["updated_at", "2020-12-19 21:49:37.524456"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Load (0.2ms)[0m  [1m[34mSELECT "children".* FROM "children" WHERE "children"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSchedule Create (0.3ms)[0m  [1m[32mINSERT INTO "schedules" ("weekday", "subject", "content", "child_id", "created_at", "updated_at", "week") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["weekday", "Monday"], ["subject", "Math"], ["content", "Completed chapter 1 of Go Math"], ["child_id", 1], ["created_at", "2020-12-19 21:49:37.584298"], ["updated_at", "2020-12-19 21:49:37.584298"], ["week", 1]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Load (0.2ms)[0m  [1m[34mSELECT "children".* FROM "children" WHERE "children"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSchedule Create (0.7ms)[0m  [1m[32mINSERT INTO "schedules" ("weekday", "subject", "content", "child_id", "created_at", "updated_at", "week") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["weekday", "Monday"], ["subject", "Reading"], ["content", "Completed chapter 1 of Lost"], ["child_id", 1], ["created_at", "2020-12-19 21:49:37.635405"], ["updated_at", "2020-12-19 21:49:37.635405"], ["week", 1]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Load (0.1ms)[0m  [1m[34mSELECT "children".* FROM "children" WHERE "children"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSchedule Create (0.3ms)[0m  [1m[32mINSERT INTO "schedules" ("weekday", "subject", "content", "child_id", "created_at", "updated_at", "week") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["weekday", "Monday"], ["subject", "Creative Writing"], ["content", "Wrote a story about my Favorite things to eat"], ["child_id", 1], ["created_at", "2020-12-19 21:49:37.642049"], ["updated_at", "2020-12-19 21:49:37.642049"], ["week", 1]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Load (0.1ms)[0m  [1m[34mSELECT "children".* FROM "children" WHERE "children"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSchedule Create (0.3ms)[0m  [1m[32mINSERT INTO "schedules" ("weekday", "subject", "content", "child_id", "created_at", "updated_at", "week") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["weekday", "Tuesday"], ["subject", "Math"], ["content", "Did 15 Jumping Jacks and 15 Sit Ups"], ["child_id", 1], ["created_at", "2020-12-19 21:49:37.646643"], ["updated_at", "2020-12-19 21:49:37.646643"], ["week", 1]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Load (0.1ms)[0m  [1m[34mSELECT "children".* FROM "children" WHERE "children"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSchedule Create (0.3ms)[0m  [1m[32mINSERT INTO "schedules" ("weekday", "subject", "content", "child_id", "created_at", "updated_at", "week") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["weekday", "Tuesday"], ["subject", "Reading"], ["content", "Listened to Beethoven on You Tube"], ["child_id", 1], ["created_at", "2020-12-19 21:49:37.651704"], ["updated_at", "2020-12-19 21:49:37.651704"], ["week", 1]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Load (0.1ms)[0m  [1m[34mSELECT "children".* FROM "children" WHERE "children"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSchedule Create (0.2ms)[0m  [1m[32mINSERT INTO "schedules" ("weekday", "subject", "content", "child_id", "created_at", "updated_at", "week") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["weekday", "Tuesday"], ["subject", "Creative Writing"], ["content", "Completed chapter 2 of Go Math"], ["child_id", 1], ["created_at", "2020-12-19 21:49:37.656833"], ["updated_at", "2020-12-19 21:49:37.656833"], ["week", 1]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Load (0.1ms)[0m  [1m[34mSELECT "children".* FROM "children" WHERE "children"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSchedule Create (0.3ms)[0m  [1m[32mINSERT INTO "schedules" ("weekday", "subject", "content", "child_id", "created_at", "updated_at", "week") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["weekday", "Wednesday"], ["subject", "Math"], ["content", "Completed chapter 2 of Lost"], ["child_id", 1], ["created_at", "2020-12-19 21:49:37.661864"], ["updated_at", "2020-12-19 21:49:37.661864"], ["week", 1]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Load (0.1ms)[0m  [1m[34mSELECT "children".* FROM "children" WHERE "children"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSchedule Create (0.4ms)[0m  [1m[32mINSERT INTO "schedules" ("weekday", "subject", "content", "child_id", "created_at", "updated_at", "week") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["weekday", "Wednesday"], ["subject", "Reading"], ["content", "Wrote a story about my family"], ["child_id", 1], ["created_at", "2020-12-19 21:49:37.666430"], ["updated_at", "2020-12-19 21:49:37.666430"], ["week", 1]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Load (0.1ms)[0m  [1m[34mSELECT "children".* FROM "children" WHERE "children"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSchedule Create (0.3ms)[0m  [1m[32mINSERT INTO "schedules" ("weekday", "subject", "content", "child_id", "created_at", "updated_at", "week") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["weekday", "Wednesday"], ["subject", "Creative Writing"], ["content", "Wrote a story about my family"], ["child_id", 1], ["created_at", "2020-12-19 21:49:37.670642"], ["updated_at", "2020-12-19 21:49:37.670642"], ["week", 1]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mSchedule Destroy (0.8ms)[0m  [1m[31mDELETE FROM "schedules"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Create (0.5ms)[0m  [1m[32mINSERT INTO "children" ("name", "age", "grade", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Malik"], ["age", 9], ["grade", "fourth"], ["created_at", "2020-12-19 21:49:47.301667"], ["updated_at", "2020-12-19 21:49:47.301667"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Load (0.1ms)[0m  [1m[34mSELECT "children".* FROM "children" WHERE "children"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSchedule Create (0.3ms)[0m  [1m[32mINSERT INTO "schedules" ("weekday", "subject", "content", "child_id", "created_at", "updated_at", "week") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["weekday", "Monday"], ["subject", "Math"], ["content", "Completed chapter 1 of Go Math"], ["child_id", 1], ["created_at", "2020-12-19 21:49:47.320399"], ["updated_at", "2020-12-19 21:49:47.320399"], ["week", 1]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Load (0.1ms)[0m  [1m[34mSELECT "children".* FROM "children" WHERE "children"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSchedule Create (0.2ms)[0m  [1m[32mINSERT INTO "schedules" ("weekday", "subject", "content", "child_id", "created_at", "updated_at", "week") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["weekday", "Monday"], ["subject", "Reading"], ["content", "Completed chapter 1 of Lost"], ["child_id", 1], ["created_at", "2020-12-19 21:49:47.324382"], ["updated_at", "2020-12-19 21:49:47.324382"], ["week", 1]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Load (0.1ms)[0m  [1m[34mSELECT "children".* FROM "children" WHERE "children"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSchedule Create (0.3ms)[0m  [1m[32mINSERT INTO "schedules" ("weekday", "subject", "content", "child_id", "created_at", "updated_at", "week") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["weekday", "Monday"], ["subject", "Creative Writing"], ["content", "Wrote a story about my Favorite things to eat"], ["child_id", 1], ["created_at", "2020-12-19 21:49:47.328177"], ["updated_at", "2020-12-19 21:49:47.328177"], ["week", 1]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Load (0.1ms)[0m  [1m[34mSELECT "children".* FROM "children" WHERE "children"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSchedule Create (0.3ms)[0m  [1m[32mINSERT INTO "schedules" ("weekday", "subject", "content", "child_id", "created_at", "updated_at", "week") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["weekday", "Tuesday"], ["subject", "Math"], ["content", "Did 15 Jumping Jacks and 15 Sit Ups"], ["child_id", 1], ["created_at", "2020-12-19 21:49:47.342231"], ["updated_at", "2020-12-19 21:49:47.342231"], ["week", 1]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Load (0.1ms)[0m  [1m[34mSELECT "children".* FROM "children" WHERE "children"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSchedule Create (0.3ms)[0m  [1m[32mINSERT INTO "schedules" ("weekday", "subject", "content", "child_id", "created_at", "updated_at", "week") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["weekday", "Tuesday"], ["subject", "Reading"], ["content", "Listened to Beethoven on You Tube"], ["child_id", 1], ["created_at", "2020-12-19 21:49:47.346339"], ["updated_at", "2020-12-19 21:49:47.346339"], ["week", 1]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Load (0.1ms)[0m  [1m[34mSELECT "children".* FROM "children" WHERE "children"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSchedule Create (0.3ms)[0m  [1m[32mINSERT INTO "schedules" ("weekday", "subject", "content", "child_id", "created_at", "updated_at", "week") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["weekday", "Tuesday"], ["subject", "Creative Writing"], ["content", "Completed chapter 2 of Go Math"], ["child_id", 1], ["created_at", "2020-12-19 21:49:47.350429"], ["updated_at", "2020-12-19 21:49:47.350429"], ["week", 1]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Load (0.1ms)[0m  [1m[34mSELECT "children".* FROM "children" WHERE "children"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSchedule Create (0.3ms)[0m  [1m[32mINSERT INTO "schedules" ("weekday", "subject", "content", "child_id", "created_at", "updated_at", "week") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["weekday", "Wednesday"], ["subject", "Math"], ["content", "Completed chapter 2 of Lost"], ["child_id", 1], ["created_at", "2020-12-19 21:49:47.354385"], ["updated_at", "2020-12-19 21:49:47.354385"], ["week", 1]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Load (0.1ms)[0m  [1m[34mSELECT "children".* FROM "children" WHERE "children"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSchedule Create (0.2ms)[0m  [1m[32mINSERT INTO "schedules" ("weekday", "subject", "content", "child_id", "created_at", "updated_at", "week") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["weekday", "Wednesday"], ["subject", "Reading"], ["content", "Wrote a story about my family"], ["child_id", 1], ["created_at", "2020-12-19 21:49:47.358526"], ["updated_at", "2020-12-19 21:49:47.358526"], ["week", 1]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChild Load (0.1ms)[0m  [1m[34mSELECT "children".* FROM "children" WHERE "children"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSchedule Create (0.2ms)[0m  [1m[32mINSERT INTO "schedules" ("weekday", "subject", "content", "child_id", "created_at", "updated_at", "week") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["weekday", "Wednesday"], ["subject", "Creative Writing"], ["content", "Wrote a story about my family"], ["child_id", 1], ["created_at", "2020-12-19 21:49:47.362497"], ["updated_at", "2020-12-19 21:49:47.362497"], ["week", 1]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 16:49:55 -0500
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.2ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 22ms (Views: 17.4ms | ActiveRecord: 0.7ms | Allocations: 8732)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 16:56:28 -0500
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.2ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 30ms (Views: 22.5ms | ActiveRecord: 0.7ms | Allocations: 8730)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 16:57:28 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.2ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.2ms | Allocations: 2060)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 16:57:47 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.3ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.3ms | Allocations: 2060)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 16:58:59 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.4ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 6ms (Views: 4.3ms | ActiveRecord: 0.4ms | Allocations: 2060)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 17:01:03 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.2ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 3.9ms | ActiveRecord: 0.2ms | Allocations: 2043)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 17:05:30 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.3ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.3ms | Allocations: 2044)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 17:06:10 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.3ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.3ms | Allocations: 2043)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 17:10:35 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.2ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.2ms | Allocations: 2060)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 17:11:04 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (1.0ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 6ms (Views: 4.6ms | ActiveRecord: 1.0ms | Allocations: 2043)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 18:02:00 -0500
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (1.8ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 38ms (Views: 25.6ms | ActiveRecord: 1.8ms | Allocations: 2067)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 18:03:13 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.8ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 17ms (Views: 15.4ms | ActiveRecord: 0.8ms | Allocations: 2043)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 18:03:41 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (1.7ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 22ms (Views: 15.2ms | ActiveRecord: 1.7ms | Allocations: 2043)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 18:03:59 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.2ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.2ms | Allocations: 2043)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 18:04:17 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (2.4ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 29ms (Views: 23.0ms | ActiveRecord: 2.4ms | Allocations: 2043)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 18:04:44 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (1.4ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 18ms (Views: 12.0ms | ActiveRecord: 1.4ms | Allocations: 2043)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 18:04:46 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (2.4ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 14ms (Views: 11.1ms | ActiveRecord: 2.4ms | Allocations: 2044)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 18:04:52 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.2ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 18ms (Views: 16.4ms | ActiveRecord: 0.2ms | Allocations: 2043)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 18:04:56 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (3.3ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 18ms (Views: 13.5ms | ActiveRecord: 3.3ms | Allocations: 2043)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 18:08:32 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (2.3ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 23ms (Views: 20.0ms | ActiveRecord: 2.3ms | Allocations: 2043)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 18:08:33 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.2ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 14ms (Views: 12.9ms | ActiveRecord: 0.2ms | Allocations: 2043)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 18:08:39 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.9ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 394ms (Views: 391.8ms | ActiveRecord: 0.9ms | Allocations: 2049)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 18:08:44 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.3ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.3ms | Allocations: 2043)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 18:10:41 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.9ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 8ms (Views: 4.7ms | ActiveRecord: 0.9ms | Allocations: 2043)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 18:10:50 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (1.0ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 10ms (Views: 7.4ms | ActiveRecord: 1.0ms | Allocations: 2043)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 18:11:51 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.2ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.2ms | Allocations: 2043)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 18:12:37 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.5ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 13ms (Views: 11.3ms | ActiveRecord: 0.5ms | Allocations: 2043)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 18:12:50 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.2ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.2ms | Allocations: 2043)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 18:13:28 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (2.2ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 17ms (Views: 12.2ms | ActiveRecord: 2.2ms | Allocations: 2043)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 18:14:47 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (2.0ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 13ms (Views: 10.2ms | ActiveRecord: 2.0ms | Allocations: 2043)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 18:14:53 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (2.2ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 10ms (Views: 7.3ms | ActiveRecord: 2.2ms | Allocations: 2043)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 18:15:22 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (1.1ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 23ms (Views: 15.5ms | ActiveRecord: 1.1ms | Allocations: 2043)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 18:16:20 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (1.0ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 10ms (Views: 8.4ms | ActiveRecord: 1.0ms | Allocations: 2044)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 18:17:26 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.2ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.2ms | Allocations: 2043)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 18:20:30 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.3ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 10ms (Views: 8.6ms | ActiveRecord: 0.3ms | Allocations: 2043)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 18:20:48 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.8ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 20ms (Views: 18.7ms | ActiveRecord: 0.8ms | Allocations: 2043)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 18:42:36 -0500
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (2.1ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 18ms (Views: 13.6ms | ActiveRecord: 2.1ms | Allocations: 2067)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 18:44:29 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.2ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 19ms (Views: 17.4ms | ActiveRecord: 0.2ms | Allocations: 2043)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 18:46:59 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.1ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.1ms | Allocations: 2044)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 18:47:59 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.2ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 7ms (Views: 5.8ms | ActiveRecord: 0.2ms | Allocations: 2043)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 18:48:10 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.2ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 7ms (Views: 5.6ms | ActiveRecord: 0.2ms | Allocations: 2043)
+
+
+Started POST "/schedules" for 127.0.0.1 at 2020-12-19 18:54:43 -0500
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Started POST "/schedules" for 127.0.0.1 at 2020-12-19 18:54:43 -0500
+Processing by SchedulesController#create as JSON
+  Parameters: {"schedule"=>{}}
+Completed 400 Bad Request in 14ms (ActiveRecord: 0.0ms | Allocations: 136)
+
+
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::ParameterMissing (param is missing or the value is empty: schedule):
+  
+app/controllers/schedules_controller.rb:49:in `schedule_params'
+app/controllers/schedules_controller.rb:18:in `create'
+Processing by SchedulesController#create as JSON
+  Parameters: {"schedule"=>{}}
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms | Allocations: 127)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: schedule):
+  
+app/controllers/schedules_controller.rb:49:in `schedule_params'
+app/controllers/schedules_controller.rb:18:in `create'
+Started POST "/schedules" for 127.0.0.1 at 2020-12-19 18:54:45 -0500
+Started POST "/schedules" for 127.0.0.1 at 2020-12-19 18:54:45 -0500
+Processing by SchedulesController#create as JSON
+  Parameters: {"schedule"=>{}}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 140)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: schedule):
+  
+app/controllers/schedules_controller.rb:49:in `schedule_params'
+app/controllers/schedules_controller.rb:18:in `create'
+Processing by SchedulesController#create as JSON
+  Parameters: {"schedule"=>{}}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 127)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: schedule):
+  
+app/controllers/schedules_controller.rb:49:in `schedule_params'
+app/controllers/schedules_controller.rb:18:in `create'
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 18:55:02 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.4ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.4ms | Allocations: 2067)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 18:55:39 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.2ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.2ms | Allocations: 2043)
+
+
+Started POST "/schedules" for 127.0.0.1 at 2020-12-19 18:55:49 -0500
+Processing by SchedulesController#create as JSON
+  Parameters: {"subject"=>"Math", "weekday"=>"Monday", "content"=>"done", "week"=>"1", "schedule"=>{"weekday"=>"Monday", "subject"=>"Math", "content"=>"done", "week"=>"1"}}
+Started POST "/schedules" for 127.0.0.1 at 2020-12-19 18:55:49 -0500
+[31mUnpermitted parameter: :week[0m
+Processing by SchedulesController#create as JSON
+  Parameters: {"subject"=>"Math", "weekday"=>"Monday", "content"=>"done", "week"=>"1", "schedule"=>{"weekday"=>"Monday", "subject"=>"Math", "content"=>"done", "week"=>"1"}}
+[31mUnpermitted parameter: :week[0m
+Completed 422 Unprocessable Entity in 144ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 6117)
+
+
+Completed 422 Unprocessable Entity in 111ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 6185)
+
+
+Started POST "/schedules" for 127.0.0.1 at 2020-12-19 18:58:53 -0500
+Started POST "/schedules" for 127.0.0.1 at 2020-12-19 18:58:53 -0500
+Processing by SchedulesController#create as JSON
+Processing by SchedulesController#create as JSON
+  Parameters: {"subject"=>"Math", "weekday"=>"Monday", "content"=>"done", "week"=>"1", "schedule"=>{"weekday"=>"Monday", "subject"=>"Math", "content"=>"done", "week"=>"1"}}
+  Parameters: {"subject"=>"Math", "weekday"=>"Monday", "content"=>"done", "week"=>"1", "schedule"=>{"weekday"=>"Monday", "subject"=>"Math", "content"=>"done", "week"=>"1"}}
+[31mUnpermitted parameter: :week[0m
+[31mUnpermitted parameter: :week[0m
+Completed 422 Unprocessable Entity in 15ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 818)
+
+
+Completed 422 Unprocessable Entity in 13ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 1302)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 19:00:24 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (2.1ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 23ms (Views: 17.0ms | ActiveRecord: 2.1ms | Allocations: 2045)
+
+
+Started POST "/schedules" for 127.0.0.1 at 2020-12-19 19:00:34 -0500
+Processing by SchedulesController#create as JSON
+  Parameters: {"subject"=>"Math", "weekday"=>"Monday", "content"=>"done", "week"=>"1", "schedule"=>{"weekday"=>"Monday", "subject"=>"Math", "content"=>"done", "week"=>"1"}}
+Started POST "/schedules" for 127.0.0.1 at 2020-12-19 19:00:34 -0500
+[31mUnpermitted parameter: :week[0m
+Completed 422 Unprocessable Entity in 4ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 699)
+
+
+Processing by SchedulesController#create as JSON
+  Parameters: {"subject"=>"Math", "weekday"=>"Monday", "content"=>"done", "week"=>"1", "schedule"=>{"weekday"=>"Monday", "subject"=>"Math", "content"=>"done", "week"=>"1"}}
+[31mUnpermitted parameter: :week[0m
+Completed 422 Unprocessable Entity in 5ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 690)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 19:02:45 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (3.5ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 17ms (Views: 11.8ms | ActiveRecord: 3.5ms | Allocations: 2070)
+
+
+Started POST "/schedules" for 127.0.0.1 at 2020-12-19 19:02:53 -0500
+Processing by SchedulesController#create as JSON
+  Parameters: {"subject"=>"Math", "weekday"=>"Monday", "content"=>"done", "week"=>"1", "schedule"=>{"weekday"=>"Monday", "subject"=>"Math", "content"=>"done", "week"=>"1"}}
+[31mUnpermitted parameter: :week[0m
+Started POST "/schedules" for 127.0.0.1 at 2020-12-19 19:02:53 -0500
+Completed 422 Unprocessable Entity in 10ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 980)
+
+
+Processing by SchedulesController#create as JSON
+  Parameters: {"subject"=>"Math", "weekday"=>"Monday", "content"=>"done", "week"=>"1", "schedule"=>{"weekday"=>"Monday", "subject"=>"Math", "content"=>"done", "week"=>"1"}}
+[31mUnpermitted parameter: :week[0m
+Completed 422 Unprocessable Entity in 11ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 749)
+
+
+Started POST "/schedules" for 127.0.0.1 at 2020-12-19 19:05:26 -0500
+Started POST "/schedules" for 127.0.0.1 at 2020-12-19 19:05:26 -0500
+Processing by SchedulesController#create as JSON
+  Parameters: {"subject"=>"Math", "weekday"=>"Monday", "content"=>"done", "week"=>"1", "schedule"=>{"weekday"=>"Monday", "subject"=>"Math", "content"=>"done", "week"=>"1"}}
+Processing by SchedulesController#create as JSON
+  Parameters: {"subject"=>"Math", "weekday"=>"Monday", "content"=>"done", "week"=>"1", "schedule"=>{"weekday"=>"Monday", "subject"=>"Math", "content"=>"done", "week"=>"1"}}
+[31mUnpermitted parameter: :week[0m
+[31mUnpermitted parameter: :week[0m
+Completed 422 Unprocessable Entity in 10ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 838)
+
+
+Completed 422 Unprocessable Entity in 10ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 1296)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 19:05:29 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (2.1ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 101ms (Views: 98.0ms | ActiveRecord: 2.1ms | Allocations: 2048)
+
+
+Started POST "/schedules" for 127.0.0.1 at 2020-12-19 19:05:38 -0500
+Processing by SchedulesController#create as JSON
+  Parameters: {"subject"=>"Math", "weekday"=>"Monday", "content"=>"done", "week"=>"1", "schedule"=>{"weekday"=>"Monday", "subject"=>"Math", "content"=>"done", "week"=>"1"}}
+[31mUnpermitted parameter: :week[0m
+Completed 422 Unprocessable Entity in 4ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 689)
+
+
+Started POST "/schedules" for 127.0.0.1 at 2020-12-19 19:05:38 -0500
+Processing by SchedulesController#create as JSON
+  Parameters: {"subject"=>"Math", "weekday"=>"Monday", "content"=>"done", "week"=>"1", "schedule"=>{"weekday"=>"Monday", "subject"=>"Math", "content"=>"done", "week"=>"1"}}
+[31mUnpermitted parameter: :week[0m
+Completed 422 Unprocessable Entity in 4ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 689)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 19:07:52 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.3ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.3ms | Allocations: 2045)
+
+
+Started POST "/schedules" for 127.0.0.1 at 2020-12-19 19:08:00 -0500
+Processing by SchedulesController#create as JSON
+  Parameters: {"subject"=>"Math", "weekday"=>"Monday", "content"=>"done", "week"=>1, "schedule"=>{"weekday"=>"Monday", "subject"=>"Math", "content"=>"done", "week"=>1}}
+Started POST "/schedules" for 127.0.0.1 at 2020-12-19 19:08:00 -0500
+[31mUnpermitted parameter: :week[0m
+Completed 422 Unprocessable Entity in 3ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 708)
+
+
+Processing by SchedulesController#create as JSON
+  Parameters: {"subject"=>"Math", "weekday"=>"Monday", "content"=>"done", "week"=>1, "schedule"=>{"weekday"=>"Monday", "subject"=>"Math", "content"=>"done", "week"=>1}}
+[31mUnpermitted parameter: :week[0m
+Completed 422 Unprocessable Entity in 8ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 689)
+
+
