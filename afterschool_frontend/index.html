@@ -67,9 +67,15 @@
           <div class="col-md-4 mb-5">
             <div class="card h-100">
               <div class="card-body">
-                <h2 class="card-title">Math</h2>
-                <p class="card-text">All Math work. </p>
-                <table class="table table-success table-striped" id="math-table">
+                <h2 class="card-title">Monday</h2>
+                <p class="card-text">Work Completed</p>
+                <table class="table table-success table-striped" id="monday-table">
+                    <div id=${this.id}>
+                        <tr>
+                            <th>Subject</th>
+                            <th>Content</th>
+                            </tr>
+                        </div>
                       </table>
               </div>
               <div class="card-footer">
@@ -81,9 +87,15 @@
           <div class="col-md-4 mb-5">
             <div class="card h-100">
               <div class="card-body">
-                <h2 class="card-title">Reading</h2>
+                <h2 class="card-title">Tuesday</h2>
                 <p class="card-text">All Reading Work. </p>
-                <table class="table table-success table-striped" id="reading-table">
+                <table class="table table-success table-striped" id="tuesday-table">
+                    <div id=${this.id}>
+                        <tr>
+                            <th>Subject</th>
+                            <th>Content</th>
+                            </tr>
+                        </div>
                     </table>
               </div>
               <div class="card-footer">
@@ -95,9 +107,15 @@
           <div class="col-md-4 mb-5">
             <div class="card h-100">
               <div class="card-body">
-                <h2 class="card-title">Creative Writing</h2>
+                <h2 class="card-title">Wednesday</h2>
                 <p class="card-text">All CW Work.</p>
-                <table class="table table-success table-striped" id="creative-table">
+                <table class="table table-success table-striped" id="wednesday-table">
+                    <div id=${this.id}>
+                        <tr>
+                            <th>Subject</th>
+                            <th>Content</th>
+                            </tr>
+                        </div>
                   </table>
               </div>
               <div class="card-footer">
@@ -105,37 +123,6 @@
               </div>
             </div>
           </div>
-          <!-- /.col-md-4 -->
-          <div class="col-md-4 mb-5">
-            <div class="card h-100">
-              <div class="card-body">
-                <h2 class="card-title">Physical Education</h2>
-                <p class="card-text">All PE Exercises </p>
-                <table class="table table-success table-striped" id="physicale-table">
-                      </table>
-              </div>
-              <div class="card-footer">
-                <a href="#" class="btn btn-primary btn-sm">More Info</a>
-              </div>
-            </div>
-          </div>
-          <!-- /.col-md-4 -->
-          <div class="col-md-4 mb-5">
-            <div class="card h-100">
-              <div class="card-body">
-                <h2 class="card-title">Music</h2>
-                <p class="card-text">All Music work </p>
-                <table class="table table-success table-striped" id="music-table">
-                      </table>
-              </div>
-              <div class="card-footer">
-                <a href="#" class="btn btn-primary btn-sm">More Info</a>
-              </div>
-            </div>
-          </div>
-    
-        </div>
-        <!-- /.row -->
     
       </div>
       <!-- /.container -->
@@ -147,8 +134,52 @@
     <th scope="col">Content</th>
 </tr>
 <div id="schedule-form"> 
-    <button id="createSchedule">Create Schedule</button>
+    <button id="create-schedule">Create Schedule</button>
 </div>
+   <!-- New Review Form Modal -->
+   <div id="backdrop"></div>
+
+   <div class="modal fade" id="add-modal" tabindex="-1" role="dialog" aria-labelledby="addModal"
+     aria-hidden="true">
+     <div class="modal-dialog" role="document">
+       <div class="modal-content">
+         <div class="modal-header">
+           <h5 class="modal-title" id="newScheduleLabel">New Schedule</h5>
+           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+             <span aria-hidden="true">&times;</span>
+           </button>
+         </div>
+         <div class="modal-body">
+           <form onsubmit="createSchedule();return false;">
+             <br>
+             <label>Weekday:</label>
+             <input type="text" id="weekday"></br>
+             </br>
+
+             <br>
+             <label>Week:</label>
+             <input type="integer" id="week"></br>
+             </br>
+
+             <br>
+             <label>Subject:</label>
+             <input type="text" id="subject"></br>
+             </br>
+
+             <br>
+             <label>Content:</label>
+             <textarea name="content" id="content" cols="30" rows="10" required></textarea>
+            </br>
+         </div>
+    
+         <div class="modal-footer">
+           <button class="btn btn--success" type="submit">Create Schedule</button>
+           <button class="btn btn--passive">Cancel</button>
+         </div>
+         </form>
+       </div>
+     </div>
+   </div>
     <div class="container">
         <form id="new-schedule-form">
             <input type="submit" />
