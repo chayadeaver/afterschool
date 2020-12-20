@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => { 
     fetchSchedules()
+    let newScheduleBtn = document.querySelector('#create-schedule');  // identifies the button 
+    newScheduleBtn.addEventListener("click", (event) => showScheduleModal(event), false); // adds event listener to button and redirects to open model function 
 
-    // const createScheduleForm = document.querySelector('#new-schedule-form');
-    // createScheduleForm.addEventListener("submit", (e) => createScheduleFormHandler(e));
 })
 
 const BASE_URL = "http://127.0.0.1:3000"
@@ -17,33 +17,50 @@ function fetchSchedules(){
         //for each schedule, create a new schedule object with the following properties.
         let s = new Schedule(schedule.id, schedule.weekday, schedule.subject, schedule.content, schedule.week)
         s.renderSchedule();
-       
     }
 })
     
+}
+// shows modal 
+function showScheduleModal() {
+    // debugger;
+    //references the modal in html
+const addScheduleModal = document.getElementById("add-modal");
+// opening the modal 
+$(addScheduleModal).modal("show", {
+backdrop: "static"
+});
+// debugger;
+addScheduleModal.addEventListener("submit", createSchedule);
+}
 
-// }
-//         for (const schedule of schedules){
+// create schedules
+function createSchedule() {
+    event.preventDefault();
+    // debugger;
+    const schedule = {
+      subject: event.target.subject.value,
+      weekday: event.target.weekday.value,
+      content: event.target.content.value,
+      week: parseInt(event.target.week.value),
+    };
+  
+    fetch(`${BASE_URL}/schedules`, {
+        method: "POST",
+        headers: {
+            'Accept': 'application/json',
+            'Content-Type': 'application/json'
+          },
+        body: JSON.stringify(schedule)
+    })
+    .then(resp => resp.json())
+    .then(schedule => {
+        let s = new Schedule(schedule.id, schedule.weekday, schedule.subject, schedule.content, schedule.week)
+        s.renderSchedule();
+})
         
-//             let s = new Schedule(schedule.id, schedule.weekday, schedule.subject, schedule.content)
-    //         //for each schedule in this array we are creating a new schedule passing in the attribute listed
-    //         document.querySelector('#schedules-container'.innerHTML += new Schedule)
-    //     }
-    }
-
-    // function renderSchedules(schedules) {
-    //     const schedulesDiv = document.querySelector('schedules-container')
-    //     schedules.forEach(schedule => {
-    //       const h2 = document.createElement('h2')
-    //       h2.innerHTML = schedule.weekday
-    //       schedulesDiv.appendChild(h2)
-    //     })
-    //   }
-
-
-    // function renderSchedules
     
-
-
-//create
+  
+}
 //delete
+funtion deleteSchedule()
