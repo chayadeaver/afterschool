@@ -63,4 +63,6 @@ function createSchedule() {
   
 }
 //delete
-funtion deleteSchedule()
+funtion deleteSchedule(){}
+
+

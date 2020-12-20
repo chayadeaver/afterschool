@@ -12,3 +12,72 @@
         //creating a new table row
         let mathRow = document.createElement('th');
 
+
+           let jsondata=JSON.parse(renderSchedule);
+    let table=document.querySelector("table");
+
+    form.dom.addEventListener("click", ()=>{
+        let out=table.out
+        if(!jsonobj.length)
+          return
+        let tbl=document.createElement("table")
+        tbl.createCaption().innerText="Table Using DOM API"
+        let hdr=tbl.insertRow()
+        for(let prop in jsondata[0]) {
+          hdr.appendChild(document.createElement("th")).innerText=prop
+        }
+        jsondata.reduce((t, x) => {
+          let row=t.insertRow()
+          for(let prop in x) {
+            row.insertCell().innerText=x[prop]
+          }
+          return t
+        }, tbl)
+        out.appendChild(document.createElement("p"))
+        out.appendChild(tbl)
+      })
+
+
+    // debugger;
+    //    if (currentSubject = 'Math') {
+    //        mathArea.innerHTML += 
+    //        `<div id=${this.id}>
+    //        <tr>
+    //            <th>Subject: ${this.subject}</th>
+    //            <th>Subject: ${this.content}</th>
+    //            </tr>
+    //            <tr> <td> ${this.subject}</td> <td>${this.content}</td> </tr>
+    //            <tr> <td> ${this.subject}</td> <td>${this.content}</td> </tr>
+    //            <tr> <td> ${this.subject}</td> <td>${this.content}</td></tr>
+    //        </div>`
+            
+    //    }
+    //     else if (currentSubject = 'Reading') {
+    //         readingArea.innerHTML += 
+    //         `<div id=${this.id}>
+    //         <tr>
+    //             <th>Subject: ${this.subject}</th>
+    //             <th>Subject: ${this.content}</th>
+    //             </tr>
+    //             <tr> <td> ${this.subject}</td> <td>${this.content}</td> </tr>
+    //             <tr> <td> ${this.subject}</td> <td>${this.content}</td> </tr>
+    //             <tr> <td> ${this.subject}</td> <td>${this.content}</td></tr>
+    //         </div>`
+    //     }
+            
+    //     else if (currentSubject = 'Writing') {
+    //         writingArea.innerHTML += 
+    //         `<div id=${this.id}>
+    //         <tr>
+    //             <th>Subject: ${this.subject}</th>
+    //             <th>Subject: ${this.content}</th>
+    //             </tr>
+    //             <tr> <td> ${this.subject}</td> <td>${this.content}</td> </tr>
+    //             <tr> <td> ${this.subject}</td> <td>${this.content}</td> </tr>
+    //             <tr> <td> ${this.subject}</td> <td>${this.content}</td></tr>
+    //         </div>`
+    //     };
+    //     console.log(this)
+
+
+testing
