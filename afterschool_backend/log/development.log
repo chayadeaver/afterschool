@@ -4471,3 +4471,93 @@ Processing by SchedulesController#create as JSON
 Completed 422 Unprocessable Entity in 8ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 689)
 
 
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 20:54:41 -0500
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SchedulesController#index as HTML
+  [1m[36mSchedule Load (0.5ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 17ms (Views: 10.6ms | ActiveRecord: 1.0ms | Allocations: 8727)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 21:00:11 -0500
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.6ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 30ms (Views: 22.6ms | ActiveRecord: 1.2ms | Allocations: 8730)
+
+
+Started POST "/schedules" for 127.0.0.1 at 2020-12-19 21:00:21 -0500
+Started POST "/schedules" for 127.0.0.1 at 2020-12-19 21:00:21 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by SchedulesController#create as JSON
+  Parameters: {"subject"=>"Math", "weekday"=>"Monday", "content"=>"done", "week"=>1, "schedule"=>{"weekday"=>"Monday", "subject"=>"Math", "content"=>"done", "week"=>1}}
+Processing by SchedulesController#create as JSON
+  Parameters: {"subject"=>"Math", "weekday"=>"Monday", "content"=>"done", "week"=>1, "schedule"=>{"weekday"=>"Monday", "subject"=>"Math", "content"=>"done", "week"=>1}}
+Completed 422 Unprocessable Entity in 17ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 4233)
+
+
+Completed 422 Unprocessable Entity in 8ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 2899)
+
+
+Started POST "/schedules" for 127.0.0.1 at 2020-12-19 21:23:13 -0500
+Started POST "/schedules" for 127.0.0.1 at 2020-12-19 21:23:13 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by SchedulesController#create as JSON
+Processing by SchedulesController#create as JSON
+  Parameters: {"subject"=>"Math", "weekday"=>"Monday", "content"=>"done", "week"=>1, "schedule"=>{"weekday"=>"Monday", "subject"=>"Math", "content"=>"done", "week"=>1}}
+  Parameters: {"subject"=>"Math", "weekday"=>"Monday", "content"=>"done", "week"=>1, "schedule"=>{"weekday"=>"Monday", "subject"=>"Math", "content"=>"done", "week"=>1}}
+Completed 422 Unprocessable Entity in 12ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 6182)
+
+
+Completed 422 Unprocessable Entity in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 684)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 21:23:22 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.8ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 6ms (Views: 4.9ms | ActiveRecord: 0.8ms | Allocations: 2108)
+
+
+Started POST "/schedules" for 127.0.0.1 at 2020-12-19 21:23:37 -0500
+Started POST "/schedules" for 127.0.0.1 at 2020-12-19 21:23:37 -0500
+Processing by SchedulesController#create as JSON
+Processing by SchedulesController#create as JSON
+  Parameters: {"subject"=>"Math", "weekday"=>"Monday", "content"=>"Done", "week"=>1, "schedule"=>{"weekday"=>"Monday", "subject"=>"Math", "content"=>"Done", "week"=>1}}
+  Parameters: {"subject"=>"Math", "weekday"=>"Monday", "content"=>"Done", "week"=>1, "schedule"=>{"weekday"=>"Monday", "subject"=>"Math", "content"=>"Done", "week"=>1}}
+Completed 422 Unprocessable Entity in 2ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 674)
+
+
+Completed 422 Unprocessable Entity in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 673)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 21:28:13 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (1.1ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 18ms (Views: 13.3ms | ActiveRecord: 1.1ms | Allocations: 2048)
+
+
+Started GET "/schedules" for 127.0.0.1 at 2020-12-19 21:28:20 -0500
+Processing by SchedulesController#index as */*
+  [1m[36mSchedule Load (0.2ms)[0m  [1m[34mSELECT "schedules".* FROM "schedules"[0m
+  ↳ app/controllers/schedules_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.2ms | Allocations: 2044)
+
+
+Started POST "/schedules" for 127.0.0.1 at 2020-12-19 21:28:54 -0500
+Processing by SchedulesController#create as JSON
+  Parameters: {"subject"=>"Math", "weekday"=>"Monday", "content"=>"done", "week"=>1, "schedule"=>{"weekday"=>"Monday", "subject"=>"Math", "content"=>"done", "week"=>1}}
+Started POST "/schedules" for 127.0.0.1 at 2020-12-19 21:28:54 -0500
+Completed 422 Unprocessable Entity in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 673)
+
+
+Processing by SchedulesController#create as JSON
+  Parameters: {"subject"=>"Math", "weekday"=>"Monday", "content"=>"done", "week"=>1, "schedule"=>{"weekday"=>"Monday", "subject"=>"Math", "content"=>"done", "week"=>1}}
+Completed 422 Unprocessable Entity in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 673)
+
+
