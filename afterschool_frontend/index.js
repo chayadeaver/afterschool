@@ -15,7 +15,7 @@ function fetchSchedules(){
     
     for (const schedule of schedules){
         //for each schedule, create a new schedule object with the following properties.
-        let s = new Schedule(schedule.id, schedule.weekday, schedule.subject, schedule.content, schedule.week, schedule.child_id)
+        let s = new Schedule(schedule.id, schedule.weekday, schedule.subject, schedule.content, schedule.date)
         s.renderSchedule();
     }
 })
@@ -38,13 +38,13 @@ function fetchSchedules(){
 function createSchedule(event) {
     event.preventDefault();
     debugger;
-    let child_id = event.target.child_id.value
+    // let child_id = event.target.child_id.value
     const schedule = {
       subject: event.target.subject.value,
       weekday: event.target.weekday.value,
       content: event.target.content.value,
-      week: parseInt(event.target.week.value),
-      child_id: parseInt(child_id)
+    //   week: parseInt(event.target.week.value),
+    //   child_id: parseInt(child_id)
     };
   
     fetch(`${BASE_URL}/schedules`, {
@@ -57,7 +57,7 @@ function createSchedule(event) {
     })
     .then(resp => resp.json())
     .then(schedule => {
-        let s = new Schedule(schedule.id, schedule.weekday, schedule.subject, schedule.content, schedule.week, schedule.child_id)
+        let s = new Schedule(schedule.id, schedule.weekday, schedule.subject, schedule.content, schedule.date)
         s.renderSchedule();
 })
     
