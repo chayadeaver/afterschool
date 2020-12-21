@@ -15,6 +15,7 @@ class SchedulesController < ApplicationController
 
   # POST /schedules
   def create
+    #if statement using childId - should be associated with a childID to be created. 
     @schedule = Schedule.new(schedule_params)
 
     if @schedule.save
