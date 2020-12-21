@@ -1,10 +1,10 @@
 class Schedule{
-    constructor(id, weekday, subject, content, week){
+    constructor(id, weekday, subject, content, date){
         this.id = id
         this.weekday = weekday
         this.subject = subject
         this.content = content
-        this.week = week
+        this.date = date
         // creating and initializing objects of this class
     }
 

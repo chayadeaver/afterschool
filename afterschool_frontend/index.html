@@ -124,7 +124,7 @@
            </button>
          </div>
          <div class="modal-body">
-           <form onsubmit="createSchedule();return false;">
+           <form>
              <br>
              <label>Weekday:</label>
              <input type="text" id="weekday"></br>
@@ -143,17 +143,20 @@
              <br>
              <label>Content:</label>
              <textarea name="content" id="content" cols="30" rows="10" required></textarea>
-            </br>
-         </div>
-    
-         <div class="modal-footer">
-           <button class="btn btn--success" type="submit">Create Schedule</button>
-           <button class="btn btn--passive">Cancel</button>
-         </div>
-         </form>
-       </div>
-     </div>
-   </div>
+              </br>
+
+              <br>
+              <input type="hidden" id="child_id" name="child_id" value="1"> 
+              </br>
+            
+              <div class="modal-footer">
+              <button class="btn btn--success" type="submit">Create Schedule</button>
+              <button class="btn btn--passive">Cancel</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
     <div class="container">
         <form id="new-schedule-form">
             <input type="submit" />
