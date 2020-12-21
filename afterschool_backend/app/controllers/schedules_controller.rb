@@ -16,6 +16,9 @@ class SchedulesController < ApplicationController
   # POST /schedules
   def create
     #if statement using childId - should be associated with a childID to be created. 
+    # if params [:child_id]
+    #   @child = Child.find_by(child_id: params[:child_id])
+    #   @schedule = @child.schedules.build(schedule_params)
     @schedule = Schedule.new(schedule_params)
 
     if @schedule.save
@@ -47,6 +50,6 @@ class SchedulesController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def schedule_params
-      params.require(:schedule).permit(:weekday, :subject, :content, :week)
+      params.require(:schedule).permit(:weekday, :subject, :content, :child_id)
     end
 end
