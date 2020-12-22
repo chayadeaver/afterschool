@@ -1,4 +1,4 @@
 class ChildSerializer
   include FastJsonapi::ObjectSerializer
-  attributes 
+  attributes :name, :age, :grade
 end

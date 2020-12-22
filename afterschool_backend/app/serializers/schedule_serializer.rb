@@ -1,4 +1,5 @@
 class ScheduleSerializer
   include FastJsonapi::ObjectSerializer
-  attributes 
+  attributes :weekday, :subject, :content
+  belongs_to :child
 end

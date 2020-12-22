@@ -1,41 +1,21 @@
 class ChildrenController < ApplicationController
   before_action :set_child, only: [:show, :update, :destroy]
 
-  # GET /children
+  GET /children
   def index
     @children = Child.all
 
     render json: @children, except: [:created_at, :updated_at]
   end
 
-  # GET /children/1
+  def index
+    children = Child.all 
+    render json: ChildSerializer.new(children)
+  end
+
   def show
-    render json: @child
-  end
-
-  # POST /children
-  def create
-    @child = Child.new(child_params)
-
-    if @child.save
-      render json: @child, status: :created, location: @child
-    else
-      render json: @child.errors, status: :unprocessable_entity
-    end
-  end
-
-  # PATCH/PUT /children/1
-  def update
-    if @child.update(child_params)
-      render json: @child
-    else
-      render json: @child.errors, status: :unprocessable_entity
-    end
-  end
-
-  # DELETE /children/1
-  def destroy
-    @child.destroy
+    child = Child.find_by(id: params[:id])
+    render json: ChildSerializer.new(child).serializable_hash
   end
 
   private
@@ -49,3 +29,37 @@ class ChildrenController < ApplicationController
       params.require(:child).permit(:name, :age, :grade)
     end
 end
+
+
+
+
+
+ # GET /children/1
+  # def show
+  #   render json: @child
+  # end
+
+# POST /children
+  # def create
+  #   @child = Child.new(child_params)
+
+  #   if @child.save
+  #     render json: @child, status: :created, location: @child
+  #   else
+  #     render json: @child.errors, status: :unprocessable_entity
+  #   end
+  # end
+
+  # PATCH/PUT /children/1
+  # def update
+  #   if @child.update(child_params)
+  #     render json: @child
+  #   else
+  #     render json: @child.errors, status: :unprocessable_entity
+  #   end
+  # end
+
+  # DELETE /children/1
+  # def destroy
+  #   @child.destroy
+  # end
