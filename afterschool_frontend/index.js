@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // selectTables();
     let newScheduleBtn = document.querySelector('#create-schedule');  // identifies the button 
     newScheduleBtn.addEventListener("click", (event) => showScheduleModal(event), false); // adds event listener to button and redirects to open modal function 
+  
 
 })
 
@@ -65,7 +66,7 @@ function createSchedule()
 
 
 function deleteSchedule(schedule){
-    debugger;
+    // debugger;
     fetch(`localhost:3000/schedules/${schedule.id}`, {
     method: "DELETE",
     headers: {"Content-Type": "application/json"},
