@@ -17,7 +17,7 @@ class SchedulesController < ApplicationController
     #if statement using childId - should be associated with a childID to be created. 
     if params [:child_id]
       @child = Child.find_by(child_id: params[:child_id])
-      @schedule = @child.schedule.build(schedule_params)
+      @schedule = @child.schedules.build(schedule_params)
     # @schedule = Schedule.new(schedule_params)
 
     if @schedule.save
