@@ -81,3 +81,348 @@
 
 
 testing
+
+in index.js 
+- make a class for the new schedule form and then use an event listener 
+-add another variable for the form
+-use ID from html with an event listener 
+
+in index.html 
+- create an ID for the form 
+-add a class=list or ID
+
+
+<label for="brand">Choose a Brand</label><br>
+                                    <select id="brands" name="brands">
+                                        <option value="1">Aston Martin</option>
+                                        <option value="2">Audi</option>
+                                        <option value="3">Bentley</option>
+                                        <option value="4">BMW</option>
+                                        <option value="5">Bugatti</option>
+                                        <option value="6">Ferrari</option>
+                                        <option value="7">Lamborghini</option>
+                                        <option value="8">Masserati</option>
+                                        <option value="9">Mercedes</option>
+                                        <option value="10">Porsche</option>
+                                    </select>
+
+
+
+
+
+function createSchedule() {
+    event.preventDefault();
+    // debugger;
+  
+    const schedule = {
+      weekday: event.target.weekday.value,
+      subject: event.target.subject.value,
+      content: event.target.content.value
+    
+    }
+    fetch(`${BASE_URL}/schedules`,{
+      method: "POST",
+      headers: {
+        Accept: "application/json", "Content-Type": "application/json",
+      },
+      body: JSON.stringify(schedule)
+    })
+    .then(resp => resp.json())
+    .then(schedule => {
+      let s = new Schedule(schedule.id, schedule.weekday, schedule.subject, schedule.content, schedule.child_id);
+      s.renderSchedule();
+    })
+
+
+
+
+
+      // shows modal  - working
+function showScheduleModal() {
+    // debugger;
+    //references the modal in html
+    const addScheduleModal = document.getElementById("add-modal");
+    const addNewSchedule = document.getElementById("new-schedule-form");
+    // opening the modal 
+        $(addScheduleModal).modal("show", {
+            backdrop: "static"
+    });
+    debugger;
+    addNewSchedule.addEventListener('submit', () => createSchedule(event))
+
+
+
+
+
+    renderSchedule() {
+    //grabbing the math table - works
+        let mondayArea = document.getElementById("monday-table"); 
+        let tuesdayArea = document.getElementById("tuesday-table"); 
+        let wednesdayArea = document.getElementById("wednesday-table"); 
+        let thursdayArea = document.getElementById("thursday-table"); 
+        let fridayArea = document.getElementById("friday-table"); 
+
+        let currentWeekday = this.weekday
+    
+        const weekday = currentWeekday;
+        
+        let area;
+         
+        switch (weekday) {
+          case 'Monday':
+            area = mondayArea.innerHTML += 
+                `<tr> <td> ${this.subject}</td> <td>${this.content}</td> </tr>`
+            break;
+          case 'Tuesday':
+            area = tuesdayArea.innerHTML += 
+                `<tr> <td> ${this.subject}</td> <td>${this.content}</td> </tr>`
+            break;
+          case 'Wednesday':
+            area = wednesdayArea.innerHTML += 
+                `<tr> <td> ${this.subject}</td> <td>${this.content}</td> </tr>`
+            break;
+          case 'Thursday':
+            area = thursdayArea.innerHTML += 
+                `<tr> <td> ${this.subject}</td> <td>${this.content}</td> </tr>`
+            break;
+          case 'Friday':
+            area = fridayArea.innerHTML += 
+                `<tr> <td> ${this.subject}</td> <td>${this.content}</td> </tr>`
+            break;
+        }
+
+
+
+function showScheduleModal(){
+    const addScheduleModal = document.getElementById("add-modal");
+    const addNewSchedule = document.getElementById("new-schedule-form");
+    $(addScheduleModal).modal("show", {
+        backdrop: "static"
+});
+
+addNewSchedule.addEventListener('submit', () => createSchedule(event))
+
+
+
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Student Schedule</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="src/css/small-business.css" rel="stylesheet"/>
+    <script src="index.js"></script>
+    <script src="src/child.js"></script>
+    <script src="src/schedule.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+<body>
+    <!-- Navigation -->
+    
+    
+  <!-- Page Content -->
+  <div class="main-container">
+
+        <!-- Heading Row -->
+    
+          <!-- /.col-lg-8 -->
+          <div class="col-lg-12">
+            <h1 class="font-weight-light">After School Journal</h1> 
+            <h5>An online journal for kids to track supplemental work completed to assist in maintaining educational standards while attending school remotely.</h5>
+          </div>
+          <!-- /.col-md-4 -->
+        </div>
+        <!-- /.row -->
+    
+        <!-- Call to Action Well -->
+        <div class="card text-black bg-secondary my-5 py-5 text-center">
+          <div class="card-body">
+            <h1 class="text-white m-0">Malik A.</h1>
+            <h1 class="text-white m-0">Age 9</h1>
+            <h1 class="text-white m-0">4th Grade</h1>
+          </div>
+        </div>
+        <header><h1 >Your Weekly Schedule</h1></header>
+        <!-- Daily Cards - Monday -->
+        <div class="row">
+          <div class="col-md-4 mb-5">
+            <div class="card h-100">
+              <div class="card-body">
+                <h2 class="card-title">Monday</h2>
+                <p class="card-text">Work Completed</p>
+                <table class="table table-success table-striped" id="monday-table">
+                    <div id=${this.id}>
+                        <tr>
+                            <th>Subject</th>
+                            <th>Content</th>
+                            </tr>
+                        </div>
+                      </table>
+              </div>
+              <div class="card-footer">
+                <a href="#" class="btn btn-primary btn-sm" id="monday-delete">Delete</a>
+              </div>
+            </div>
+          </div>
+          <!-- /Tuesday-->
+          <div class="col-md-4 mb-5">
+            <div class="card h-100">
+              <div class="card-body">
+                <h2 class="card-title">Tuesday</h2>
+                <p class="card-text">Work Completed </p>
+                <table class="table table-success table-striped" id="tuesday-table">
+                    <div id=${this.id}>
+                        <tr>
+                            <th>Subject</th>
+                            <th>Content</th>
+                            </tr>
+                        </div>
+                    </table>
+              </div>
+              <div class="card-footer">
+                <a href="#" class="btn btn-primary btn-sm" id="tuesday-delete">Delete</a>
+              </div>
+            </div>
+          </div>
+          <!-- /Wednesday -->
+          <div class="col-md-4 mb-5">
+            <div class="card h-100">
+              <div class="card-body">
+                <h2 class="card-title">Wednesday</h2>
+                <p class="card-text">Work Completed</p>
+                <table class="table table-success table-striped" id="wednesday-table">
+                    <div id=${this.id}>
+                        <tr>
+                            <th>Subject</th>
+                            <th>Content</th>
+                            </tr>
+                        </div>
+                  </table>
+              </div>
+              <div class="card-footer">
+                <a href="#" class="btn btn-primary btn-sm" id="wednesday-delete">Delete</a>
+              </div>
+            </div>
+          </div>
+                   <!-- /Thursday -->
+                   <div class="col-md-4 mb-5">
+                      <div class="card h-100">
+                        <div class="card-body">
+                          <h2 class="card-title">Thursday</h2>
+                          <p class="card-text">Work Completed</p>
+                          <table class="table table-success table-striped" id="thursday-table">
+                              <div id=${this.id}>
+                                  <tr>
+                                      <th>Subject</th>
+                                      <th>Content</th>
+                                      </tr>
+                                  </div>
+                            </table>
+                        </div>
+                        <div class="card-footer">
+                          <a href="#" class="btn btn-primary btn-sm" id="thursday-delete">Delete</a>
+                        </div>
+                      </div>
+                    </div>
+             <!-- /Friday -->
+             <div class="col-md-4 mb-5">
+                <div class="card h-100">
+                  <div class="card-body">
+                    <h2 class="card-title">Friday</h2>
+                    <p class="card-text">Work Completed</p>
+                    <table class="table table-success table-striped" id="friday-table">
+                        <div id=${this.id}>
+                            <tr>
+                                <th>Subject</th>
+                                <th>Content</th>
+                                </tr>
+                            </div>
+                      </table>
+                  </div>
+                  <div class="card-footer">
+                    <a href="#" class="btn btn-primary btn-sm" id="friday-delete">Delete</a>
+                  </div>
+                </div>
+              </div>
+      </div>
+      <!-- /New Card Container -->
+      <div class="row"></div>
+    </div>
+    
+    <table id="daily-schedule" class="table">
+    <thead class="thead-dark">
+
+<div id="schedule-form"> 
+    <button id="create-schedule">Create Schedule</button>
+</div>
+   <!-- New Schedule Form Modal -->
+   <div id="backdrop"></div>
+
+   <div class="modal fade" id="add-modal" tabindex="-1" role="dialog" aria-labelledby="addModal"
+     aria-hidden="true">
+     <div class="modal-dialog" role="document">
+       <div class="modal-content">
+         <div class="modal-header">
+           <h5 class="modal-title" id="newScheduleLabel">New Schedule</h5>
+           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+             <span aria-hidden="true">&times;</span>
+           </button>
+         </div>
+         <div class="modal-body">
+            <form id="new-schedule-form" >
+                
+             <br>
+             <label for="weekday">Select Day:</label>
+             <select id="weekday" name="weekday">
+                <option>Choose...</option>
+                <option value="Monday">Monday</option>
+                <option value="Tuesday">Tuesday</option>
+                <option value="Wednesday">Wednesday</option>
+                <option value="Thursday">Thursday</option>
+                <option value="Friday">Friday</option>
+             </select></br>
+             </br>
+
+             <br>
+             <label for="subject">Select Subject:</label>
+             <select id="subject" name="subject">
+                <option> Choose...</option>
+                <option value="Math">Math</option>
+                <option value="Reading">Reading</option>
+                <option value="Creative Writing">Creative Writing</option>
+             </select></br>
+             </br>
+
+             <br>
+             <label>Content:</label>
+             <textarea name="content" id="content" cols="30" rows="10" required></textarea>
+              </br>
+            
+              <div class="modal-footer">
+              <button class="btn btn--success" type="submit">Create Schedule</button>
+              <button class="btn btn--passive">Cancel</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    <div class="container">
+    </div>
+     <div id="schedules-container"></div>
+
+     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
+</html>
+  
+
+
+
+
+    
+
+    
+

@@ -7,40 +7,41 @@ class Schedule{
         this.child_id = child_id
         // creating and initializing objects of this class
     }
+    renderSchedule(){
 
-
-    renderSchedule() {
-    //grabbing the math table
         let mondayArea = document.getElementById("monday-table"); 
         let tuesdayArea = document.getElementById("tuesday-table"); 
         let wednesdayArea = document.getElementById("wednesday-table"); 
+        let thursdayArea = document.getElementById("thursday-table"); 
+        let fridayArea = document.getElementById("friday-table"); 
 
         let currentWeekday = this.weekday
     
         const weekday = currentWeekday;
         
         let area;
-         
+
         switch (weekday) {
-          case 'Monday':
-            area = mondayArea.innerHTML += 
-                `<tr> <td> ${this.subject}</td> <td>${this.content}</td> </tr>`
-            break;
-          case 'Tuesday':
-            area = tuesdayArea.innerHTML += 
-                `<tr> <td> ${this.subject}</td> <td>${this.content}</td> </tr>`
-            break;
-          case 'Wednesday':
-            area = wednesdayArea.innerHTML += 
-                `<tr> <td> ${this.subject}</td> <td>${this.content}</td> </tr>`
-            break;
+            case 'Monday':
+              area = mondayArea.innerHTML += 
+                  `<tr> <td> ${this.subject}</td> <td>${this.content}</td> </tr>`
+              break;
+            case 'Tuesday':
+              area = tuesdayArea.innerHTML += 
+                  `<tr> <td> ${this.subject}</td> <td>${this.content}</td> </tr>`
+              break;
+            case 'Wednesday':
+              area = wednesdayArea.innerHTML += 
+                  `<tr> <td> ${this.subject}</td> <td>${this.content}</td> </tr>`
+              break;
+            case 'Thursday':
+              area = thursdayArea.innerHTML += 
+                  `<tr> <td> ${this.subject}</td> <td>${this.content}</td> </tr>`
+              break;
+            case 'Friday':
+              area = fridayArea.innerHTML += 
+                  `<tr> <td> ${this.subject}</td> <td>${this.content}</td> </tr>`
+              break;
         }
     }
-        
 }
-                
-
-
-
-
-
