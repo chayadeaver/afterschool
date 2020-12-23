@@ -1,9 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => { 
     fetchSchedules();
+    addNewSchedule();
     // selectTables();
-    let newScheduleBtn = document.querySelector('#create-schedule');  // identifies the button 
-    newScheduleBtn.addEventListener("click", (event) => showScheduleModal(event), false); // adds event listener to button and redirects to open modal function 
-  
+   
 
 })
 
@@ -54,17 +53,6 @@ function createSchedule()
       }) 
 } 
 
-
-
-    function ShowScheduleModal(){
-        const addScheduleModal = document.getElementById("add-modal");
-        const addNewSchedule = document.getElementById("new-schedule-form");
-        $(addScheduleModal).modal("show", {backdrop: "static"});
-    }
-
-    addNewSchedule.addEventListener('submit', () => createSchedule(event))
-
-
 function deleteSchedule(schedule){
     // debugger;
     fetch(`localhost:3000/schedules/${schedule.id}`, {
@@ -76,7 +64,7 @@ function deleteSchedule(schedule){
 })}
 
 function selectTables(){
-  mon = document.getElementById("monday-delete");
+    mon = document.getElementById("monday-delete");
     tues = document.getElementById("tuesday-delete");
     wed = document.getElementById("wednesday-delete");
     thur = document.getElementById("thursday-delete");
@@ -87,3 +75,22 @@ function selectTables(){
     thur.addEventListener("click", deleteSchedule);
     fri.addEventListener("click", deleteSchedule);
 };
+
+
+
+function ShowScheduleModal(){
+  const addScheduleModal = document.getElementById("add-modal");
+  const addNewSchedule = document.getElementById("new-schedule-form"); 
+  $(addScheduleModal).modal("show", {backdrop: "static"});
+  
+  addNewSchedule.addEventListener('submit', () => createSchedule(event))
+};
+
+
+function addNewSchedule(){
+  let newScheduleBtn = document.querySelector('#create-schedule');  // identifies the button 
+  newScheduleBtn.addEventListener("click", (event) => showScheduleModal(event), false); // adds event listener to button and redirects to open modal function 
+
+
+};
+
