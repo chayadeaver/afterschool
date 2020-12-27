@@ -138,7 +138,7 @@
       </div>
       <!-- /.container -->
     
-   <!-- New Review Form Modal -->
+   <!-- New Schedule Form Modal -->
    <div id="backdrop"></div>
 
    <div class="modal fade" id="add-modal" tabindex="-1" role="dialog" aria-labelledby="addModal"
@@ -152,16 +152,31 @@
            </button>
          </div>
          <div class="modal-body">
-           <form>
-             <br>
-             <label>Weekday:</label>
-             <input type="text" id="weekday"></br>
-             </br>
+           <form id="new-schedule-form">
+            <div class="modal-body">
+              <form id="schedule-form">
+                      <label for="schedule_id">Weekday:</label><br>
+                      <select id="schedule_id" name="schedule_id">
+                          <option value="Choose...">Choose</option>
+                          <option value="Monday">Monday</option>
+                          <option value="Tuesday">Tuesday</option>
+                          <option value="Wednesday">Wednesday</option>
+                          <option value="Thursday">Thursday</option>
+                          <option value="Friday">Friday</option>
+                      </select>
+           </form>
+           <form id="new-schedule-form">
+            <div class="modal-body">
+              <form id="schedule-form">
+                      <label for="schedule_id">Subject:</label><br>
+                      <select id="schedule_id" name="schedule_id">
+                          <option value="Choose">Choose</option>
+                          <option value="Math">Math</option>
+                          <option value="Reading">Reading</option>
+                          <option value="Creative Writing">Creative Writing</option>
+                      </select>
 
-             <br>
-             <label>Subject:</label>
-             <input type="text" id="subject"></br>
-             </br>
+           </form>
 
              <br>
              <label>Content:</label>
@@ -169,19 +184,13 @@
               </br>
             
               <div class="modal-footer">
-              <button class="btn btn--success" type="submit">Create Schedule</button>
-              <button class="btn btn--passive">Cancel</button>
+              <button class="btn btn--success" type="submit" id="create-schedule-button">Create Schedule</button>
+              <button class="btn btn--passive" id="cancel-schedule">Cancel</button>
               </div>
             </form>
           </div>
         </div>
       </div>
-    <div class="container">
-        <form id="new-schedule-form">
-            <input type="submit" />
-        </form>
-
-    </div>
      <div id="schedules-container"></div>
 
      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
