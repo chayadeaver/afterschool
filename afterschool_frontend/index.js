@@ -28,18 +28,6 @@ function fetchSchedules() {
     });
 }
 
-// function deleteSchedule(schedule) {
-//   // debugger;
-//   fetch(`localhost:3000/schedules/${schedule.id}`, {
-//     method: "DELETE",
-//     headers: { "Content-Type": "application/json" },
-//   })
-//     .then((resp) => resp.json())
-//     .then((schedule) => {
-//       document.getElementById(`${schedule.id}`.remove());
-//     });
-// }
-
 function selectTables() {
   mon = document.getElementById("monday-delete");
   tues = document.getElementById("tuesday-delete");
@@ -108,5 +96,24 @@ function createSchedule() {
   submitSchedule.addEventListener('submit', createSchedule)
   
 
-
 }
+
+function deleteSchedule() {
+  // debugger;
+  fetch(`localhost:3000/schedules` + `/${schedule.id}`, {
+    method: "DELETE",
+    headers: { "Content-Type": "application/json" },
+  })
+    .then((resp) => resp.json())
+    .then((schedule) => { console.log(resp)
+      // document.getElementById(`${schedule.id}`.remove());
+    });
+}
+
+// function removeItem() {
+//   var ul = document.getElementById("dynamic-list");
+//   var candidate = document.getElementById("candidate");
+//   var item = document.getElementById(candidate.value);
+//   ul.removeChild(item);
+// }
+

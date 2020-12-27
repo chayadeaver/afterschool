@@ -451,6 +451,45 @@ function createSchedule(){
 
 
 
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+
+function selectTables() {
+  mon = document.getElementById("monday-delete");
+  tues = document.getElementById("tuesday-delete");
+  wed = document.getElementById("wednesday-delete");
+  thur = document.getElementById("thursday-delete");
+  fri = document.getElementById("friday-delete");
+  mon.addEventListener("click", deleteSchedule);
+  tues.addEventListener("click", deleteSchedule);
+  wed.addEventListener("click", deleteSchedule);
+  thur.addEventListener("click", deleteSchedule);
+  fri.addEventListener("click", deleteSchedule);
+}
+
+
+
+function addNewSchedule() {
+  let newScheduleBtn = document.querySelector("#create-schedule"); // identifies the button
+  newScheduleBtn.addEventListener(
+    "click",
+    (event) => ShowScheduleModal(event),
+    false
+  ); // adds event listener to button and redirects to open modal function
+}
+function ShowScheduleModal() {
+  // debugger;
+  //references the modal in html
+  const addScheduleModal = document.getElementById("add-modal");
+  // opening the modal
+  $(addScheduleModal).modal("show", {
+    backdrop: "static",
+  });
+  // debugger;
+  addScheduleModal.addEventListener("submit", createSchedule);
+}
+
+
 
     
 
