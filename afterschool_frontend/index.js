@@ -6,8 +6,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
 const BASE_URL = "http://127.0.0.1:3000";
 
-const submitSchedule = document.querySelector("#create-schedule-button")
-
 
 function fetchSchedules() {
   fetch(`${BASE_URL}/schedules`)
@@ -30,43 +28,17 @@ function fetchSchedules() {
     });
 }
 
-    function createSchedule(){
-      // event.preventDefault();
-    fetch(`${BASE_URL}/schedules`, {
-      method: "POST",
-      headers: {
-      Accept: "application/json",
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify(schedule),
-  })
-    .then((resp) => resp.json())
-    .then((schedule) => {
-      let s = new Schedule(
-        schedule.id,
-        schedule.weekday,
-        schedule.subject,
-        schedule.content,
-        schedule.child_id
-      );
-      s.renderSchedule();
-    
-    });
-  }
-
-  submitSchedule.addEventListener('submit', createSchedule);
-
-function deleteSchedule(schedule) {
-  // debugger;
-  fetch(`localhost:3000/schedules/${schedule.id}`, {
-    method: "DELETE",
-    headers: { "Content-Type": "application/json" },
-  })
-    .then((resp) => resp.json())
-    .then((schedule) => {
-      document.getElementById(`${schedule.id}`.remove());
-    });
-}
+// function deleteSchedule(schedule) {
+//   // debugger;
+//   fetch(`localhost:3000/schedules/${schedule.id}`, {
+//     method: "DELETE",
+//     headers: { "Content-Type": "application/json" },
+//   })
+//     .then((resp) => resp.json())
+//     .then((schedule) => {
+//       document.getElementById(`${schedule.id}`.remove());
+//     });
+// }
 
 function selectTables() {
   mon = document.getElementById("monday-delete");
@@ -99,4 +71,42 @@ function ShowScheduleModal() {
   });
   // debugger;
   addScheduleModal.addEventListener("submit", createSchedule);
+}
+
+function createSchedule() {
+  
+  const submitSchedule = document.querySelector("#create-schedule-button")
+  let childDay = document.querySelector("#weekday").value;
+  let childSubject = document.querySelector("#subject").value;
+  let childComment = document.querySelector("#content")
+
+  let childSchedule = {
+    weekday: childDay,
+    subject: childSubject,
+    comment: childComment
+  };  
+
+  fetch(`${BASE_URL}/schedules`,{
+    method: "POST",
+    headers:{
+      Accept: "application/json",
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(childSchedule),
+  })
+  .then((resp) => resp.json())
+  .then((schedule) => {
+    let s = new Schedule(
+      schedule.id,
+      schedule.weekday,
+      schedule.subject,
+      schedule.content,
+      schedule.child_id
+    );
+    s.renderSchedule();
+  });
+  submitSchedule.addEventListener('submit', createSchedule)
+  
+
+
 }

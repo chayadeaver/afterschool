@@ -42,12 +42,10 @@
                 <h2 class="card-title">Monday</h2>
                 <p class="card-text">Work Completed</p>
                 <table class="table table-success table-striped" id="monday-table">
-                    <div id=${this.id}>
                         <tr>
                             <th>Subject</th>
                             <th>Content</th>
                             </tr>
-                        </div>
                       </table>
               </div>
               <div class="card-footer">
@@ -62,12 +60,10 @@
                 <h2 class="card-title">Tuesday</h2>
                 <p class="card-text">Work Completed </p>
                 <table class="table table-success table-striped" id="tuesday-table">
-                    <div id=${this.id}>
                         <tr>
                             <th>Subject</th>
                             <th>Content</th>
                             </tr>
-                        </div>
                     </table>
               </div>
               <div class="card-footer">
@@ -82,12 +78,10 @@
                 <h2 class="card-title">Wednesday</h2>
                 <p class="card-text">Work Completed</p>
                 <table class="table table-success table-striped" id="wednesday-table">
-                    <div id=${this.id}>
                         <tr>
                             <th>Subject</th>
                             <th>Content</th>
                             </tr>
-                        </div>
                   </table>
               </div>
               <div class="card-footer">
@@ -102,12 +96,10 @@
                           <h2 class="card-title">Thursday</h2>
                           <p class="card-text">Work Completed</p>
                           <table class="table table-success table-striped" id="thursday-table">
-                              <div id=${this.id}>
                                   <tr>
                                       <th>Subject</th>
                                       <th>Content</th>
                                       </tr>
-                                  </div>
                             </table>
                         </div>
                         <div class="card-footer">
@@ -122,12 +114,10 @@
                     <h2 class="card-title">Friday</h2>
                     <p class="card-text">Work Completed</p>
                     <table class="table table-success table-striped" id="friday-table">
-                        <div id=${this.id}>
                             <tr>
                                 <th>Subject</th>
                                 <th>Content</th>
                                 </tr>
-                            </div>
                       </table>
                   </div>
                   <div class="card-footer">
@@ -154,9 +144,9 @@
          <div class="modal-body">
            <form id="new-schedule-form">
             <div class="modal-body">
-              <form id="schedule-form">
-                      <label for="schedule_id">Weekday:</label><br>
-                      <select id="schedule_id" name="schedule_id">
+              <form id="schedule-day-form">
+                      <label for="weekday_id">Weekday:</label><br>
+                      <select id="weekday_id" name="weekday">
                           <option value="Choose...">Choose</option>
                           <option value="Monday">Monday</option>
                           <option value="Tuesday">Tuesday</option>
@@ -167,9 +157,9 @@
            </form>
            <form id="new-schedule-form">
             <div class="modal-body">
-              <form id="schedule-form">
-                      <label for="schedule_id">Subject:</label><br>
-                      <select id="schedule_id" name="schedule_id">
+              <form id="schedule-subject-form">
+                      <label for="subject_id">Subject:</label><br>
+                      <select id="subject_id" name="subject">
                           <option value="Choose">Choose</option>
                           <option value="Math">Math</option>
                           <option value="Reading">Reading</option>
