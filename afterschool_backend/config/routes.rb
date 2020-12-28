@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   resources :children do 
-  resources :schedules, only: [:index, :show, :update, :create, :destroy]
+    resources :schedules, only: [:index, :show, :update, :create, :destroy]
   end
   resources :schedules
 end

@@ -2,9 +2,14 @@ document.addEventListener("DOMContentLoaded", () => {
   fetchSchedules();
   addNewSchedule();
   // selectTables();
+  const submitSchedule = document.querySelector("#create-schedule-button")
+  submitSchedule.addEventListener('submit', e => createSchedule(e))
 });
 
 const BASE_URL = "http://127.0.0.1:3000";
+
+
+  
 
 
 function fetchSchedules() {
@@ -61,12 +66,14 @@ function ShowScheduleModal() {
   addScheduleModal.addEventListener("submit", createSchedule);
 }
 
-function createSchedule() {
+function createSchedule(e) {
+  e.preventDefault()
+  // debugger
   
-  const submitSchedule = document.querySelector("#create-schedule-button")
-  let childDay = document.querySelector("#weekday").value;
-  let childSubject = document.querySelector("#subject").value;
-  let childComment = document.querySelector("#content")
+  let childDay = document.querySelector("#weekday_id").value;
+  let childSubject = document.querySelector("#subject_id").value;
+  let childComment = e.target.querySelector('#content').value
+
 
   let childSchedule = {
     weekday: childDay,
@@ -77,23 +84,25 @@ function createSchedule() {
   fetch(`${BASE_URL}/schedules`,{
     method: "POST",
     headers:{
-      Accept: "application/json",
+      "Accept": "application/json",
       "Content-Type": "application/json",
     },
     body: JSON.stringify(childSchedule),
   })
   .then((resp) => resp.json())
-  .then((schedule) => {
-    let s = new Schedule(
-      schedule.id,
-      schedule.weekday,
-      schedule.subject,
-      schedule.content,
-      schedule.child_id
-    );
-    s.renderSchedule();
+  .then((s) => {
+    // console.log(s)
+    // debugger
+    const schedule = new Schedule(
+      s.data.id,
+      s.data.attributes.weekday,
+      s.data.attributes.subject,
+      s.data.attributes.content
+    )
+
+    schedule.renderSchedule();
+
   });
-  submitSchedule.addEventListener('submit', createSchedule)
   
 
 }

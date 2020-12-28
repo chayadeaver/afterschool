@@ -144,35 +144,27 @@
          <div class="modal-body">
            <form id="new-schedule-form">
             <div class="modal-body">
-              <form id="schedule-day-form">
-                      <label for="weekday_id">Weekday:</label><br>
-                      <select id="weekday_id" name="weekday">
-                          <option value="Choose...">Choose</option>
-                          <option value="Monday">Monday</option>
-                          <option value="Tuesday">Tuesday</option>
-                          <option value="Wednesday">Wednesday</option>
-                          <option value="Thursday">Thursday</option>
-                          <option value="Friday">Friday</option>
-                      </select>
-           </form>
-           <form id="new-schedule-form">
+              <label for="weekday_id">Weekday:</label><br>
+              <select id="weekday_id" name="weekday">
+                  <option value="Choose...">Choose</option>
+                  <option value="Monday">Monday</option>
+                  <option value="Tuesday">Tuesday</option>
+                  <option value="Wednesday">Wednesday</option>
+                  <option value="Thursday">Thursday</option>
+                  <option value="Friday">Friday</option>
+              </select>
             <div class="modal-body">
-              <form id="schedule-subject-form">
-                      <label for="subject_id">Subject:</label><br>
-                      <select id="subject_id" name="subject">
-                          <option value="Choose">Choose</option>
-                          <option value="Math">Math</option>
-                          <option value="Reading">Reading</option>
-                          <option value="Creative Writing">Creative Writing</option>
-                      </select>
-
-           </form>
-
+              <label for="subject_id">Subject:</label><br>
+              <select id="subject_id" name="subject">
+                  <option value="Choose">Choose</option>
+                  <option value="Math">Math</option>
+                  <option value="Reading">Reading</option>
+                  <option value="Creative Writing">Creative Writing</option>
+              </select>
              <br>
              <label>Content:</label>
              <textarea name="content" id="content" cols="30" rows="10" required></textarea>
               </br>
-            
               <div class="modal-footer">
               <button class="btn btn--success" type="submit" id="create-schedule-button">Create Schedule</button>
               <button class="btn btn--passive" id="cancel-schedule">Cancel</button>

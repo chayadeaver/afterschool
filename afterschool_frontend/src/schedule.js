@@ -20,7 +20,7 @@ class Schedule{
         const weekday = currentWeekday;
         
         let area;
-
+        // debugger
         switch (weekday) {
             case 'Monday':
               area = mondayArea.innerHTML += 
